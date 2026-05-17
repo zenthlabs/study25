@@ -9,17 +9,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     
     <style>
+      /* =====================================================
+         — DYNAMIC COLOR SYSTEM (Auto-Switching System)
+         ===================================================== */
+      
+      /* ☀️ DEFAULT LIGHT THEME (Warm Sunset Look) */
       :root {
-        --primary: #00796b;
-        --primary-dark: #004d40;
-        --accent: #e0f7fa;
-        --text-main: #2d3748;
-        --text-muted: #4a5568;
-        --bg-card: #ffffff;
-        --danger: #d32f2f;
-        --warning: #f6ad55;
+        --primary: #FB923C;            /* PrimaryMainLight */
+        --primary-dark: #2D1B15;       /* L_OnBackground */
+        --accent: #F8F0EB;             /* L_SecondaryBackground */
+        --text-main: #2D1B15;          /* L_OnBackground */
+        --text-muted: #1E293B;         /* L_OnSurface */
+        --bg-card: #FFFFFF;            /* L_Card / L_Surface */
+        --bg-body: #FFF9F5;            /* L_Background */
+        --border-color: #F1E4DC;        /* L_Border */
+        
+        --header-gradient: linear-gradient(135deg, #FB923C, #F472B6); /* L_Header */
+        --danger: #EF4444;             /* ErrorColor */
+        --warning: #F59E0B;            /* WarningColor */
+        --success: #6366F1;            /* SuccessColor */
       }
 
+      /* 🌙 AUTO DARK THEME (Deep Navy & Teal - System Controlled) */
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --primary: #22D3EE;            /* Acc_Cyan (Better visibility in dark) */
+          --primary-dark: #F8FAFC;       /* D_OnBackground */
+          --accent: #111827;             /* D_SecondaryBackground */
+          --text-main: #F8FAFC;          /* D_OnBackground */
+          --text-muted: #E2E8F0;         /* D_OnSurface */
+          --bg-card: #1E293B;            /* D_Card / D_Surface */
+          --bg-body: #0F172A;            /* D_Background */
+          --border-color: #334155;        /* D_Border */
+          
+          --header-gradient: linear-gradient(135deg, #064E3B, #0F172A); /* D_Header */
+        }
+      }
+
+      /* =====================================================
+         — UI LAYOUT & STYLES
+         ===================================================== */
       * {
         box-sizing: border-box;
         margin: 0;
@@ -27,9 +56,10 @@
       }
 
       body {
-        background-color: #f4f7f6;
+        background-color: var(--bg-body);
         color: var(--text-main);
         font-family: "Inter", system-ui, -apple-system, sans-serif;
+        transition: background-color 0.3s ease, color 0.3s ease;
       }
 
       .container {
@@ -38,15 +68,16 @@
         padding: 0 20px;
       }
 
-      /* Help Mini Card */
+      /* Help Mini Card with App Gradients */
       .help-mini-card {
-        background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+        background: var(--header-gradient);
         color: white;
         text-align: center;
         padding: 15px;
         border-radius: 20px;
         margin-bottom: 25px;
-        box-shadow: 0 6px 20px rgba(0, 121, 107, 0.25);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        transition: background 0.3s ease;
       }
 
       .help-mini-card p {
@@ -74,23 +105,19 @@
         padding: 40px;
         border-radius: 24px;
         margin-bottom: 35px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
-        border: 1px solid rgba(0, 121, 107, 0.06);
-        transition: transform 0.3s ease;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+        border: 1px solid var(--border-color);
+        transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
       }
 
       h2 {
         font-size: 28px;
-        color: var(--primary-dark);
+        color: var(--primary);
         margin-bottom: 12px;
         font-weight: 800;
         display: flex;
         align-items: center;
         gap: 12px;
-      }
-      
-      h2 i {
-        color: var(--primary);
       }
 
       h3 {
@@ -106,7 +133,7 @@
 
       p {
         font-size: 16px;
-        color: var(--text-main);
+        color: var(--text-muted);
         line-height: 1.8;
         margin-bottom: 18px;
         text-align: justify;
@@ -130,7 +157,7 @@
       }
 
       .info-list li {
-        background: #f8fafc;
+        background: var(--accent);
         padding: 14px 18px;
         margin-bottom: 12px;
         border-radius: 12px;
@@ -140,6 +167,7 @@
         display: flex;
         align-items: flex-start;
         gap: 12px;
+        transition: background-color 0.3s ease;
       }
 
       .info-list li i {
@@ -150,16 +178,17 @@
       .last-updated {
         display: inline-block;
         background: var(--accent);
-        color: var(--primary-dark);
+        color: var(--primary);
         padding: 6px 16px;
         border-radius: 50px;
         font-size: 13px;
         font-weight: 700;
         margin-bottom: 25px;
+        transition: background-color 0.3s ease;
       }
 
       .alert-box {
-        background: #fffdf2;
+        background: var(--accent);
         border-left: 6px solid var(--warning);
         padding: 20px;
         border-radius: 18px;
@@ -167,7 +196,6 @@
       }
       
       .alert-box.danger-box {
-        background: #fff5f5;
         border-left-color: var(--danger);
       }
 
@@ -209,18 +237,18 @@
 
       /* FAQ Styles */
       .faq-item {
-        border: 1.5px solid #edf2f7;
+        border: 1.5px solid var(--border-color);
         border-radius: 18px;
         margin-bottom: 15px;
         transition: all 0.3s ease;
-        background: #fff;
+        background: var(--bg-card);
       }
 
       .faq-question {
         padding: 20px;
         font-size: 16.5px;
         font-weight: 700;
-        color: var(--primary-dark);
+        color: var(--text-main);
         cursor: pointer;
         display: flex;
         justify-content: space-between;
@@ -235,7 +263,7 @@
 
       .faq-item.active {
         border-color: var(--primary);
-        box-shadow: 0 6px 18px rgba(0, 121, 107, 0.08);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
       }
 
       .faq-item.active .faq-question i.toggle-icon {
@@ -252,7 +280,7 @@
       .faq-item.active .faq-answer {
         max-height: 500px;
         padding: 10px 20px 20px;
-        border-top: 1px dashed #edf2f7;
+        border-top: 1px dashed var(--border-color);
       }
 
       .animate-on-scroll {
@@ -449,7 +477,7 @@
 
       <!-- REFUND POLICY -->
       <div id="refund" class="section-card animate-on-scroll">
-        <h2><i class="fa-solid fa-hand-holding-dollar"></i> Refund & Course Course Change Policy</h2>
+        <h2><i class="fa-solid fa-hand-holding-dollar"></i> Refund & Course Change Policy</h2>
         <span class="last-updated"><i class="fa-solid fa-shield"></i> Standard Policy</span>
         
         <p>
@@ -574,6 +602,9 @@
       </div>
     </div>
 
+    <!-- =====================================================
+         — JAVASCRIPT ENGINE
+         ===================================================== -->
     <script>
       // FAQ Accordion Toggle Logic
       document.querySelectorAll(".faq-question").forEach((button) => {
@@ -581,10 +612,7 @@
           const faqItem = button.parentElement;
           const isActive = faqItem.classList.contains("active");
           
-          // Collapse all active FAQ items
           document.querySelectorAll(".faq-item").forEach((item) => item.classList.remove("active"));
-          
-          // If the clicked item wasn't active, activate it
           if (!isActive) faqItem.classList.add("active");
         });
       });
