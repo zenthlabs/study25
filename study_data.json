@@ -1,0 +1,1228 @@
+{
+  "courses": {
+    "ba": {
+      "id": "ba",
+      "title": "Bachelor of Arts",
+      "short_name": "B.A.",
+      "type": "year",
+      "data": {
+        "1st_year": {
+          "title": "1st Year",
+          "subjects": [
+            {
+              "subject_id": "ba_his_101_mj",
+              "subject_code": "BA-HIS-101-MJ",
+              "subject_name_en": "Ancient Indian History",
+              "subject_name": "प्राचीन भारत का इतिहास",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-HIS-101-MJ.html"
+            },
+            {
+              "subject_id": "ba_pol_102_mj",
+              "subject_code": "BA-POL-102-MJ",
+              "subject_name_en": "Political Theory",
+              "subject_name": "राजनीतिक सिद्धांत",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-POL-102-MJ.html"
+            },
+            {
+              "subject_id": "ba_soc_103_mn",
+              "subject_code": "BA-SOC-103-MN",
+              "subject_name_en": "Introduction to Sociology",
+              "subject_name": "समाजशास्त्र का परिचय",
+              "category": "Minor",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-SOC-103-MN.html"
+            },
+            {
+              "subject_id": "ba_hin_104_sec",
+              "subject_code": "BA-HIN-104-SEC",
+              "subject_name_en": "Hindi Patrakarita",
+              "subject_name": "हिंदी पत्रकारिता",
+              "category": "SEC",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-HIN-104-SEC.html"
+            },
+            {
+              "subject_id": "ba_eng_105_aecc",
+              "subject_code": "BA-ENG-105-AECC",
+              "subject_name_en": "Communicative English",
+              "subject_name": "संचारात्मक अंग्रेज़ी",
+              "category": "AECC",
+              "order": 1,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": null
+            },
+            {
+              "subject_id": "ba_geo_106_mj",
+              "subject_code": "BA-GEO-106-MJ",
+              "subject_name_en": "Physical Geography",
+              "subject_name": "भौतिक भूगोल",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-GEO-106-MJ.html"
+            },
+            {
+              "subject_id": "ba_eco_107_mj",
+              "subject_code": "BA-ECO-107-MJ",
+              "subject_name_en": "Micro Economics",
+              "subject_name": "सूक्ष्म अर्थशास्त्र",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-ECO-107-MJ.html"
+            },
+            {
+              "subject_id": "ba_psy_108_mn",
+              "subject_code": "BA-PSY-108-MN",
+              "subject_name_en": "Basic Psychology",
+              "subject_name": "मूल मनोविज्ञान",
+              "category": "Minor",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-PSY-108-MN.html"
+            },
+            {
+              "subject_id": "ba_san_109_sec",
+              "subject_code": "BA-SAN-109-SEC",
+              "subject_name_en": "Basic Sanskrit",
+              "subject_name": "मूल संस्कृत",
+              "category": "SEC",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-SAN-109-SEC.html"
+            },
+            {
+              "subject_id": "ba_env_110_vac",
+              "subject_code": "BA-ENV-110-VAC",
+              "subject_name_en": "Environmental Studies",
+              "subject_name": "पर्यावरण अध्ययन",
+              "category": "VAC",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-ENV-110-VAC.html"
+            },
+            {
+              "subject_id": "ba_phi_111_mj",
+              "subject_code": "BA-PHI-111-MJ",
+              "subject_name_en": "Indian Philosophy",
+              "subject_name": "भारतीय दर्शन",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-PHI-111-MJ.html"
+            },
+            {
+              "subject_id": "ba_pad_112_mn",
+              "subject_code": "BA-PAD-112-MN",
+              "subject_name_en": "Public Administration",
+              "subject_name": "लोक प्रशासन",
+              "category": "Minor",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-PAD-112-MN.html"
+            }
+          ]
+        },
+        "2nd_year": {
+          "title": "2nd Year",
+          "subjects": [
+            {
+              "subject_id": "ba_his_201_mj",
+              "subject_code": "BA-HIS-201-MJ",
+              "subject_name_en": "Ancient Indian History",
+              "subject_name": "प्राचीन भारत का इतिहास",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_pol_202_mj",
+              "subject_code": "BA-POL-202-MJ",
+              "subject_name_en": "Political Theory",
+              "subject_name": "राजनीतिक सिद्धांत",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_phi_203_mj",
+              "subject_code": "BA-PHI-203-MJ",
+              "subject_name_en": "Indian Philosophy",
+              "subject_name": "भारतीय दर्शन",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_soc_204_mj",
+              "subject_code": "BA-SOC-204-MJ",
+              "subject_name_en": "Introduction to Sociology",
+              "subject_name": "समाजशास्त्र का परिचय",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_pad_205_mj",
+              "subject_code": "BA-PAD-205-MJ",
+              "subject_name_en": "Public Administration",
+              "subject_name": "लोक प्रशासन",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_geo_206_mj",
+              "subject_code": "BA-GEO-206-MJ",
+              "subject_name_en": "Physical Geography",
+              "subject_name": "भौतिक भूगोल",
+              "category": "Major",
+              "order": 6,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_eco_207_mj",
+              "subject_code": "BA-ECO-207-MJ",
+              "subject_name_en": "Micro Economics",
+              "subject_name": "सूक्ष्म अर्थशास्त्र",
+              "category": "Major",
+              "order": 7,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_psy_231_mn",
+              "subject_code": "BA-PSY-231-MN",
+              "subject_name_en": "Basic Psychology",
+              "subject_name": "मूल मनोविज्ञान",
+              "category": "Minor",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_hin_271_fnd",
+              "subject_code": "BA-HIN-271-FND",
+              "subject_name_en": "Hindi",
+              "subject_name": "हिंदी",
+              "category": "Foundation",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_eng_272_FND",
+              "subject_code": "BA-ENG-272-FND",
+              "subject_name_en": "English",
+              "subject_name": "अग्रेंजी",
+              "category": "Foundation",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_fnd_273_fnd",
+              "subject_code": "BA-fnd-273-FND",
+              "subject_name_en": " Foundation ",
+              "subject_name": " फाउंडेशन ",
+              "category": "Foundation",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_hin_281_sec",
+              "subject_code": "BA-HIN-281-SEC",
+              "subject_name_en": "Hindi Patrakarita",
+              "subject_name": "हिंदी पत्रकारिता",
+              "category": "SEC",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_san_282_sec",
+              "subject_code": "BA-SAN-282-SEC",
+              "subject_name_en": "Basic Sanskrit",
+              "subject_name": "मूल संस्कृत",
+              "category": "SEC",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_eng_286_aecc",
+              "subject_code": "BA-ENG-286-AECC",
+              "subject_name_en": "Communicative English",
+              "subject_name": "संचारात्मक अंग्रेज़ी",
+              "category": "AECC",
+              "order": 1,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": null
+            },
+            {
+              "subject_id": "ba_env_296_vac",
+              "subject_code": "BA-ENV-296-VAC",
+              "subject_name_en": "Environmental Studies",
+              "subject_name": "पर्यावरण अध्ययन",
+              "category": "VAC",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            }
+          ]
+        },
+        "3rd_year": {
+          "title": "3rd Year",
+          "subjects": [
+            {
+              "subject_id": "ba_his_101_mj",
+              "subject_code": "BA-HIS-101-MJ",
+              "subject_name_en": "Ancient Indian History",
+              "subject_name": "प्राचीन भारत का इतिहास",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-HIS-101-MJ.html"
+            },
+            {
+              "subject_id": "ba_pol_102_mj",
+              "subject_code": "BA-POL-102-MJ",
+              "subject_name_en": "Political Theory",
+              "subject_name": "राजनीतिक सिद्धांत",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-POL-102-MJ.html"
+            },
+            {
+              "subject_id": "ba_soc_103_mn",
+              "subject_code": "BA-SOC-103-MN",
+              "subject_name_en": "Introduction to Sociology",
+              "subject_name": "समाजशास्त्र का परिचय",
+              "category": "Minor",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-SOC-103-MN.html"
+            },
+            {
+              "subject_id": "ba_hin_104_sec",
+              "subject_code": "BA-HIN-104-SEC",
+              "subject_name_en": "Hindi Patrakarita",
+              "subject_name": "हिंदी पत्रकारिता",
+              "category": "SEC",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-HIN-104-SEC.html"
+            },
+            {
+              "subject_id": "ba_eng_105_aecc",
+              "subject_code": "BA-ENG-105-AECC",
+              "subject_name_en": "Communicative English",
+              "subject_name": "संचारात्मक अंग्रेज़ी",
+              "category": "AECC",
+              "order": 1,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": null
+            },
+            {
+              "subject_id": "ba_geo_106_mj",
+              "subject_code": "BA-GEO-106-MJ",
+              "subject_name_en": "Physical Geography",
+              "subject_name": "भौतिक भूगोल",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-GEO-106-MJ.html"
+            },
+            {
+              "subject_id": "ba_eco_107_mj",
+              "subject_code": "BA-ECO-107-MJ",
+              "subject_name_en": "Micro Economics",
+              "subject_name": "सूक्ष्म अर्थशास्त्र",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-ECO-107-MJ.html"
+            },
+            {
+              "subject_id": "ba_psy_108_mn",
+              "subject_code": "BA-PSY-108-MN",
+              "subject_name_en": "Basic Psychology",
+              "subject_name": "मूल मनोविज्ञान",
+              "category": "Minor",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-PSY-108-MN.html"
+            },
+            {
+              "subject_id": "ba_san_109_sec",
+              "subject_code": "BA-SAN-109-SEC",
+              "subject_name_en": "Basic Sanskrit",
+              "subject_name": "मूल संस्कृत",
+              "category": "SEC",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-SAN-109-SEC.html"
+            },
+            {
+              "subject_id": "ba_env_110_vac",
+              "subject_code": "BA-ENV-110-VAC",
+              "subject_name_en": "Environmental Studies",
+              "subject_name": "पर्यावरण अध्ययन",
+              "category": "VAC",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-ENV-110-VAC.html"
+            },
+            {
+              "subject_id": "ba_phi_111_mj",
+              "subject_code": "BA-PHI-111-MJ",
+              "subject_name_en": "Indian Philosophy",
+              "subject_name": "भारतीय दर्शन",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-PHI-111-MJ.html"
+            },
+            {
+              "subject_id": "ba_pad_112_mn",
+              "subject_code": "BA-PAD-112-MN",
+              "subject_name_en": "Public Administration",
+              "subject_name": "लोक प्रशासन",
+              "category": "Minor",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": "ba/1st_year/BA-PAD-112-MN.html"
+            }
+          ]
+        }
+      }
+    },
+    "bsc": {
+      "id": "bsc",
+      "title": "Bachelor of Science",
+      "short_name": "B.Sc.",
+      "type": "year",
+      "data": {
+        "1st_year": {
+          "title": "1st Year",
+          "subjects": [
+            {
+              "subject_id": "bsc_phy_101_mj",
+              "subject_code": "BSC-PHY-101-MJ",
+              "subject_name_en": "Mechanics and Relativity",
+              "subject_name": "यांत्रिकी और सापेक्षता",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "bsc/1st_year/BSC-PHY-101-MJ.html"
+            },
+            {
+              "subject_id": "bsc_che_102_mj",
+              "subject_code": "BSC-CHE-102-MJ",
+              "subject_name_en": "Organic Chemistry",
+              "subject_name": "कार्बनिक रसायन",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": "bsc/1st_year/BSC-CHE-102-MJ.html"
+            },
+            {
+              "subject_id": "bsc_mat_103_mn",
+              "subject_code": "BSC-MAT-103-MN",
+              "subject_name_en": "Vector Algebra",
+              "subject_name": "सदिश बीजगणित",
+              "category": "Minor",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "bsc/1st_year/BSC-MAT-103-MN.html"
+            },
+            {
+              "subject_id": "bsc_cs_104_sec",
+              "subject_code": "BSC-CS-104-SEC",
+              "subject_name_en": "Computer Fundamentals",
+              "subject_name": "कंप्यूटर की मूल बातें",
+              "category": "SEC",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "bsc/1st_year/BSC-CS-104-SEC.html"
+            },
+            {
+              "subject_id": "bsc_bot_105_mj",
+              "subject_code": "BSC-BOT-105-MJ",
+              "subject_name_en": "Plant Biology",
+              "subject_name": "पादप जीवविज्ञान",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": "bsc/1st_year/BSC-BOT-105-MJ.html"
+            },
+            {
+              "subject_id": "bsc_zoo_106_mj",
+              "subject_code": "BSC-ZOO-106-MJ",
+              "subject_name_en": "Animal Diversity",
+              "subject_name": "प्राणी विविधता",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "available",
+              "html_url": "bsc/1st_year/BSC-ZOO-106-MJ.html"
+            },
+            {
+              "subject_id": "bsc_stat_107_mn",
+              "subject_code": "BSC-STAT-107-MN",
+              "subject_name_en": "Basic Statistics",
+              "subject_name": "बुनियादी सांख्यिकी",
+              "category": "Minor",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": "bsc/1st_year/BSC-STAT-107-MN.html"
+            },
+            {
+              "subject_id": "bsc_elec_108_sec",
+              "subject_code": "BSC-ELEC-108-SEC",
+              "subject_name_en": "Basic Electronics",
+              "subject_name": "बुनियादी इलेक्ट्रॉनिक्स",
+              "category": "SEC",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": "bsc/1st_year/BSC-ELEC-108-SEC.html"
+            },
+            {
+              "subject_id": "bsc_biotech_109_mj",
+              "subject_code": "BSC-BIOT-109-MJ",
+              "subject_name_en": "Biotechnology",
+              "subject_name": "जैव प्रौद्योगिकी",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "available",
+              "html_url": "bsc/1st_year/BSC-BIOT-109-MJ.html"
+            },
+            {
+              "subject_id": "bsc_yoga_110_vac",
+              "subject_code": "BSC-YOGA-110-VAC",
+              "subject_name_en": "Yoga and Wellness",
+              "subject_name": "योग और कल्याण",
+              "category": "VAC",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "bsc/1st_year/BSC-YOGA-110-VAC.html"
+            }
+          ]
+        }
+      }
+    },
+    "ma": {
+      "id": "ma",
+      "title": "Master of Arts",
+      "short_name": "M.A.",
+      "type": "semester",
+      "data": {
+        "1st_semester": {},
+        "2nd_semester": {
+          "title": "2nd Semester",
+          "subjects": [
+            {
+              "subject_id": "ma_pol_201_mj",
+              "subject_code": "MA-POL-201-MJ",
+              "subject_name_en": "Western political thought",
+              "subject_name": "वेस्टर्न पालिटिकल थॉट",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_pol_202_mj",
+              "subject_code": "MA-POL-202-MJ",
+              "subject_name_en": "International organization",
+              "subject_name": "इंटरनेशनल आर्गेनाइजेशन",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_pol_203_mj",
+              "subject_code": "MA-POL-203-MJ",
+              "subject_name_en": "Politics of South Asian Countries",
+              "subject_name": "पालिटिकस ऑफ साउथ ऐसियन कंट्रीज ",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_pol_204_mj",
+              "subject_code": "MA-POL-204-MJ",
+              "subject_name_en": "Research Methodology",
+              "subject_name": " रिसर्च मेथोडोलॉजी",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_his_205_mj",
+              "subject_code": "MA-HIS-205-MJ",
+              "subject_name_en": "",
+              "subject_name": "हिस्टिरियोग्राफी, कान्सेप्ट, मेथड्स एण्ड टूल्स",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_his_206_mj",
+              "subject_code": "MA-HIS-206-MJ",
+              "subject_name_en": "",
+              "subject_name": "बीसवी शताब्दी का विश्व",
+              "category": "Major",
+              "order": 6,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_his_207_mj",
+              "subject_code": "MA-HIS-207-MJ",
+              "subject_name_en": "",
+              "subject_name": "हिस्ट्री ऑफ इंडिया 1757 से 1857 ई.",
+              "category": "Major",
+              "order": 7,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_his_208_mj",
+              "subject_code": "MA-HIS-208-MJ",
+              "subject_name_en": "Women in Indian History",
+              "subject_name": "वूमन इन इंडियन हिस्ट्री",
+              "category": "Major",
+              "order": 8,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_geo_209_mj",
+              "subject_code": "MA-GEO-209-MJ",
+              "subject_name_en": "Climatology",
+              "subject_name": "क्लायमेटोलॉजी",
+              "category": "Major",
+              "order": 9,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_geo_210_mj",
+              "subject_code": "MA-GEO-210-MJ",
+              "subject_name_en": "resource management",
+              "subject_name": "रिसोर्स मैनेजमेंट",
+              "category": "Major",
+              "order": 10,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_geo_211_mj",
+              "subject_code": "MA-GEO-211-MJ",
+              "subject_name_en": "Geography of India Economy and Regions",
+              "subject_name": "ज्योग्राफी ऑफ इण्डिया इकोनामी एण्ड रिजन्स",
+              "category": "Major",
+              "order": 11,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_geo_212_mj",
+              "subject_code": "MA-GEO-212-MJ",
+              "subject_name_en": "Geography of Environment",
+              "subject_name": "ज्योग्राफी ऑफ एन्वायरमेंट",
+              "category": "Major",
+              "order": 12,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_eco_213_mj",
+              "subject_code": "MA-ECO-21-MJ",
+              "subject_name_en": " Advanced Economic Analysis",
+              "subject_name": "एडवांस इकोनोमिकल एनालेसिस  ",
+              "category": "Major",
+              "order": 13,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_eco_214_mj",
+              "subject_code": "MA-ECO-21-MJ",
+              "subject_name_en": " Monetary Economics and Banking",
+              "subject_name": "मोनीटेरी एकोनामिक्स एण्ड बैंकिंग ",
+              "category": "Major",
+              "order": 14,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_eco_215_mj",
+              "subject_code": "MA-ECO-215-MJ",
+              "subject_name_en": "Research Methods and Statistics Inference ",
+              "subject_name": "रिसर्च मेथड्स एण्ड स्टेटिस्टिक्स इंफ्रेंस ",
+              "category": "Major",
+              "order": 15,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_eco_216_mj",
+              "subject_code": "MA-ECO-21-MJ",
+              "subject_name_en": "International Economics",
+              "subject_name": " इंटरनेशनल इकोनॉमिक्स",
+              "category": "Major",
+              "order": 16,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ma_pas_220_mj",
+              "subject_code": "MA-PAS-220-MJ",
+              "subject_name_en": "Indian Administration (Union Government) ",
+              "subject_name": "भारतीय प्रशासन (संधीय सरकार)",
+              "category": "Major",
+              "order": 20,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            }
+          ]
+        },
+        "3rd_semester": {}
+      }
+    },
+    "msc": {
+      "id": "msc",
+      "title": "Master of Science",
+      "short_name": "M.Sc.",
+      "type": "semester",
+      "data": {
+        "1st_semester": {
+          "title": "1st Semester",
+          "subjects": [
+            {
+              "subject_id": "msc_phy_101_mj",
+              "subject_code": "MSC-PHY-101-MJ",
+              "subject_name_en": "Classical Mechanics",
+              "subject_name": "शास्त्रीय यांत्रिकी",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "msc/1st_semester/MSC-PHY-101-MJ.html"
+            },
+            {
+              "subject_id": "msc_phy_102_mj",
+              "subject_code": "MSC-PHY-102-MJ",
+              "subject_name_en": "Quantum Physics",
+              "subject_name": "क्वांटम भौतिकी",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": "msc/1st_semester/MSC-PHY-102-MJ.html"
+            },
+            {
+              "subject_id": "msc_mat_103_mn",
+              "subject_code": "MSC-MAT-103-MN",
+              "subject_name_en": "Advanced Calculus",
+              "subject_name": "उन्नत कलन",
+              "category": "Minor",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "msc/1st_semester/MSC-MAT-103-MN.html"
+            },
+            {
+              "subject_id": "msc_cs_104_sec",
+              "subject_code": "MSC-CS-104-SEC",
+              "subject_name_en": "Scientific Computing",
+              "subject_name": "वैज्ञानिक संगणना",
+              "category": "SEC",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": "msc/1st_semester/MSC-CS-104-SEC.html"
+            },
+            {
+              "subject_id": "msc_che_105_mj",
+              "subject_code": "MSC-CHE-105-MJ",
+              "subject_name_en": "Inorganic Chemistry",
+              "subject_name": "अकार्बनिक रसायन",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": "msc/1st_semester/MSC-CHE-105-MJ.html"
+            },
+            {
+              "subject_id": "msc_bot_106_mj",
+              "subject_code": "MSC-BOT-106-MJ",
+              "subject_name_en": "Microbiology",
+              "subject_name": "सूक्ष्मजीव विज्ञान",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "available",
+              "html_url": "msc/1st_semester/MSC-BOT-106-MJ.html"
+            },
+            {
+              "subject_id": "msc_zoo_107_mj",
+              "subject_code": "MSC-ZOO-107-MJ",
+              "subject_name_en": "Cell Biology",
+              "subject_name": "कोशिका विज्ञान",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "available",
+              "html_url": "msc/1st_semester/MSC-ZOO-107-MJ.html"
+            },
+            {
+              "subject_id": "msc_env_108_mj",
+              "subject_code": "MSC-ENV-108-MJ",
+              "subject_name_en": "Ecological Principles",
+              "subject_name": "पारिस्थितिक सिद्धांत",
+              "category": "Major",
+              "order": 6,
+              "fees": 25,
+              "status": "available",
+              "html_url": "msc/1st_semester/MSC-ENV-108-MJ.html"
+            },
+            {
+              "subject_id": "msc_stat_109_mn",
+              "subject_code": "MSC-STAT-109-MN",
+              "subject_name_en": "Probability Theory",
+              "subject_name": "प्रायिकता सिद्धांत",
+              "category": "Minor",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": "msc/1st_semester/MSC-STAT-109-MN.html"
+            }
+          ]
+        }
+      }
+    },
+    "llb": {
+      "id": "llb",
+      "title": "Bachelor of Laws",
+      "short_name": "LL.B.",
+      "type": "semester",
+      "data": {
+        "1st_semester": {
+          "title": "1st Semester",
+          "subjects": [
+            {
+              "subject_id": "llb_gpc_101_mj",
+              "subject_code": "LLB-GPC-101-MJ",
+              "subject_name_en": "Contract-I (General Principles of Contract Sections 1-75 and Specific Relief)",
+              "subject_name": "अनुबंध-I (अनुबंध के सामान्य सिद्धांत, धारा 1-75 और विशिष्ट राहत)",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_ica_102_mj",
+              "subject_code": "LLB-ICA-102-MJ",
+              "subject_name_en": "Contract -II (Indian Contract Act. Sale of Goods Act. Indian Partnership Act & Other Specific Contracts)",
+              "subject_name": "अनुबंध -II (भारतीय अनुबंध अधिनियम, माल विक्रय अधिनियम, भारतीय साझेदारी अधिनियम और अन्य विशिष्ट अनुबंध)",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_tcpl_103_mj",
+              "subject_code": "LLB-TCPL-103-MJ",
+              "subject_name_en": "Law Of Torts and Consumer Protection Law",
+              "subject_name": "अपकृत्य कानून और उपभोक्ता संरक्षण कानून",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_bns_104_mj",
+              "subject_code": "LLB-BNS-104-MJ",
+              "subject_name_en": "Bhartiya Nyaya Sanhita",
+              "subject_name": "भारतीय न्याय संहिता",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            }
+          ]
+        },
+        "2nd_semester": {
+          "title": "2nd Semester",
+          "subjects": [
+            {
+              "subject_id": "llb_jsd_201_mj",
+              "subject_code": "LLB-JSD-201-MJ",
+              "subject_name_en": "Jurisprudence",
+              "subject_name": "न्यायशास्र",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_cli_202_mj",
+              "subject_code": "LLB-CLI-202-MJ",
+              "subject_name_en": "Constitutional Law of India",
+              "subject_name": "भारत का संवैधानिक कानून",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_flh_203_mj",
+              "subject_code": "LLB-FLH-203-MJ",
+              "subject_name_en": "Family Law -I (Hindu Law)",
+              "subject_name": "पारिवारिक कानून -I (हिंदू कानून)",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_pil_204_mj",
+              "subject_code": "LLB-PIL-204-MJ",
+              "subject_name_en": "Public Interest Lawyering",
+              "subject_name": "जनहित वकालत",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_flm_205_mj",
+              "subject_code": "LLB-FLM-205-MJ",
+              "subject_name_en": "Family Law-II (Muslim Law)",
+              "subject_name": "पारिवारिक कानून-II (मुस्लिम कानून)",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            }
+          ]
+        },
+        "3rd_semester": {
+          "title": "3rd Semester",
+          "subjects": [
+            {
+              "subject_id": "llb_TPEA_301_mj",
+              "subject_code": "LLB-TPEA-301-MJ",
+              "subject_name_en": "Transfer of Prooertv Act And Easement Act",
+              "subject_name": "संपत्ति हस्तांतरण अधिनियम और सुखाधिकार अधिनियम ",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_ilch_302_mj",
+              "subject_code": "LLB-ILCH-302-MJ",
+              "subject_name_en": "Indian Legal And Constitutional History",
+              "subject_name": "भारतीय विधि एवं संवैधानिक इतिहास",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_cap_303_mj",
+              "subject_code": "LLB-CAP-303-MJ",
+              "subject_name_en": "Criminology And Penology ",
+              "subject_name": "अपराधशास्त्र और दंडशास्त्र ",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_cl_304_mj",
+              "subject_code": "LLB-CL-304-MJ",
+              "subject_name_en": "Company Law",
+              "subject_name": "कंपनी कानून ",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            }
+          ]
+        },
+        "4th_semester": {
+          "title": "4th Semester",
+          "subjects": [
+            {
+              "subject_id": "llb_ll_401_mj",
+              "subject_code": "LLB-LL-401-MJ",
+              "subject_name_en": "Labour Law",
+              "subject_name": "श्रम कानून",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_pbbr_402_mj",
+              "subject_code": "LLB-PBBR-402-MJ",
+              "subject_name_en": "Professiona Ethics Accountabiligy of Lawyers & Bar Bench Relations",
+              "subject_name": "वकीलों की व्यावसायिक नैतिकता और जवाबदेही तथा बार बेंच के संबंध",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_atl_403_mj",
+              "subject_code": "LLB-ATL-403-MJ",
+              "subject_name_en": "Administrative Law",
+              "subject_name": "प्रशासनिक व्यवस्था",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_lret_404_mj",
+              "subject_code": "LLB-LRET-404-MJ",
+              "subject_name_en": "law Relating to Equity & Trust",
+              "subject_name": "इक्विटी और ट्रस्ट से संबंधित कानून",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_ilhr_405_mj",
+              "subject_code": "LLB-ILHR-405-MJ",
+              "subject_name_en": "International Law & Human Rights",
+              "subject_name": "अंतर्राष्ट्रीय कानून और मानवाधिकार",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            }
+          ]
+        },
+        "5th_semester": {
+          "title": "5th Semester",
+          "subjects": [
+            {
+              "subject_id": "llb_bnss_501_mj",
+              "subject_code": "LLB-BNSS-501-MJ",
+              "subject_name_en": "Bhartiva Nagrik Suraksha Sanhita 2023",
+              "subject_name": "भारती नागरिक सुरक्षा संहिता 2023",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_cpla_502_mj",
+              "subject_code": "LLB-CPLA-502-MJ",
+              "subject_name_en": "Civil Procedure And Limitation Act",
+              "subject_name": "संविदा कानून",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_iea_503_mj",
+              "subject_code": "LLB-IEA-503-MJ",
+              "subject_name_en": "Indian Evsubject_idence Act 2023 ",
+              "subject_name": "भारतीय साक्ष्य अधिनियम 2023 ",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_ptl_104_",
+              "subject_code": "LLB-PTL-104-MJ",
+              "subject_name_en": "Practical Trainine in Law",
+              "subject_name": "विधि में व्यावहारिक प्रशिक्षण",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_tla_105_mj",
+              "subject_code": "LLB-TLA-105-MJ",
+              "subject_name_en": "Tenancy Law and M.P. Accomodation Control Act ",
+              "subject_name": "किरायेदारी कानून और मध्य प्रदेश आवास नियंत्रण अधिनियम",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            }
+          ]
+        },
+        "6th_semester": {
+          "title": "6th Semester",
+          "subjects": [
+            {
+              "subject_id": "llb_acdr_601_mj",
+              "subject_code": "LLB-ACDR-601-MJ",
+              "subject_name_en": "Arbitration Conciliation & Alternate Dispute Resolution System",
+              "subject_name": "मध्यस्थता, सुलह और वैकल्पिक विवाद समाधान प्रणाली",
+              "category": "Major",
+              "order": 1,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_llge_602_mj",
+              "subject_code": "LLB-LLGE-602-MJ",
+              "subject_name_en": "Legal Language/Legal Writing Including General English",
+              "subject_name": "कानूनी भाषा/कानूनी लेखन, सामान्य अंग्रेजी",
+              "category": "Major",
+              "order": 2,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_ios_603_mj",
+              "subject_code": "LLB-IOS-603-MJ",
+              "subject_name_en": "Interpretation of Statutes",
+              "subject_name": "क़ानून की व्याख्या",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "llb_eml_604_mj",
+              "subject_code": "LLB-EML-604-MJ",
+              "subject_name_en": "Environmental Law",
+              "subject_name": "पर्यावरण कानून",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}
