@@ -1,0 +1,19 @@
+{
+  "notifications": [
+    {
+      "title": "BA Final Year Exam Form 2026",
+      "description": "बी.ए. अंतिम वर्ष परीक्षा फॉर्म भरने की अंतिम तिथि जारी कर दी गई है।",
+      "date": "15 May 2026",
+      "important": true,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1778823268-12515501816a06b0647ba73!vu_14.PDF?1778823292"
+    },
+
+    {
+      "title": "BSc Semester Result Released",
+      "description": "बी.एससी. सेमेस्टर परीक्षा परिणाम विश्वविद्यालय द्वारा जारी कर दिया गया है।",
+      "date": "12 May 2026",
+      "important": false,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1778477400-6899829276a016958e38dc!EXAM_2142_DATE_08.05.2026_BA.BFA.BCOM.BSC.BHSC.BBA.___BCA.PDF?1778477401"
+    }
+  ]
+}
