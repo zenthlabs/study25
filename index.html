@@ -1,232 +1,548 @@
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study 25 - Legal Center</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
     <style>
-        *, *::before, *::after {
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333333;
-            background-color: #fafdfc;
-            margin: 0;
-            padding: 10px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 10px auto;
-            padding: 0 15px;
-        }
-        .tabs {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-bottom: 25px;
-            border-bottom: 2px solid #e0f7fa;
-            padding-bottom: 10px;
-        }
-        .tab-link {
-            display: inline-block;
-            padding: 8px 14px;
-            color: #00796b;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 13px;
-            border-radius: 4px;
-            margin: 4px;
-            background-color: #e0f7fa;
-            transition: all 0.3s ease;
-        }
-        .tab-link:hover {
-            background-color: #4db6ac;
-            color: #ffffff;
-        }
+      :root {
+        --primary: #00796b;
+        --primary-dark: #004d40;
+        --accent: #e0f7fa;
+        --text-main: #2d3748;
+        --text-muted: #4a5568;
+        --bg-card: #ffffff;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 10px auto;
+        padding: 0 10px;
+        font-family:
+          "Inter",
+          system-ui,
+          -apple-system,
+          sans-serif;
+      }
+
+      /* Help Mini Card */
+      .help-mini-card {
+        background: var(--primary);
+        color: white;
+        text-align: center;
+        padding: 12px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 15px rgba(0, 121, 107, 0.2);
+      }
+
+      .help-mini-card p {
+        margin: 0;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+      }
+
+      .help-mini-card a {
+        color: #e0f7fa;
+        text-decoration: underline;
+        font-weight: 700;
+        margin: 0 5px;
+      }
+
+      .section-card {
+        background: var(--bg-card);
+        padding: 40px;
+        border-radius: 30px;
+        margin-bottom: 35px;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.04);
+        border: 1px solid rgba(0, 121, 107, 0.08);
+        transition: transform 0.3s ease;
+      }
+
+      h2 {
+        font-size: 32px;
+        color: var(--primary-dark);
+        margin-bottom: 12px;
+        font-weight: 800;
+      }
+      h3 {
+        margin-top: 32px;
+        margin-bottom: 15px;
+        color: var(--primary);
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+      }
+      h3::before {
+        content: "";
+        width: 4px;
+        height: 20px;
+        background: var(--primary);
+        margin-right: 12px;
+        border-radius: 10px;
+      }
+
+      p {
+        font-size: 16.5px;
+        color: var(--text-main);
+        line-height: 1.8;
+        margin-bottom: 18px;
+        text-align: justify;
+      }
+      a {
+        color: var(--primary);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .info-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 20px 0;
+      }
+      .info-list li {
+        background: #f8fafc;
+        padding: 12px 18px;
+        margin-bottom: 10px;
+        border-radius: 12px;
+        font-size: 16px;
+        border-left: 4px solid var(--primary);
+        color: var(--text-muted);
+      }
+
+      .last-updated {
+        display: inline-block;
+        background: var(--accent);
+        color: var(--primary);
+        padding: 8px 16px;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 25px;
+      }
+
+      .alert-box {
+        background: #fffdf2;
+        border-left: 6px solid #f6ad55;
+        padding: 20px;
+        border-radius: 18px;
+        margin-top: 30px;
+      }
+
+      /* Contact Grid */
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        margin-top: 20px;
+      }
+
+      .contact-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border-radius: 15px;
+        color: white !important;
+        font-weight: 700;
+        transition: 0.3s;
+        text-align: center;
+      }
+
+      .contact-link.mail {
+        background: #ea4335;
+      }
+      .contact-link.telegram {
+        background: #0088cc;
+      }
+      .contact-link:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+      }
+
+      /* FAQ Styles */
+      .faq-item {
+        border: 1.5px solid #edf2f7;
+        border-radius: 18px;
+        margin-bottom: 15px;
+        transition: all 0.3s ease;
+      }
+      .faq-question {
+        padding: 20px;
+        font-size: 16.5px;
+        font-weight: 700;
+        color: var(--primary-dark);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .faq-item.active {
+        border-color: var(--primary);
+        box-shadow: 0 5px 15px rgba(0, 121, 107, 0.08);
+      }
+      .faq-answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        padding: 0 20px;
+      }
+      .faq-item.active .faq-answer {
+        max-height: 500px;
+        padding: 10px 20px 20px;
+      }
+
+      .animate-on-scroll {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 0.8s ease-out;
+      }
+      .animate-on-scroll.show {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      @media (max-width: 768px) {
         .section-card {
-            background-color: #ffffff;
-            border-radius: 8px;
-            padding: 25px 20px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 12px rgba(0, 121, 107, 0.05);
-            border: 1px solid #e0f7fa;
+          padding: 25px;
         }
-        .section-card h2 {
-            color: #00796b;
-            font-size: 20px;
-            margin-top: 0;
-            margin-bottom: 15px;
-            border-left: 5px solid #4db6ac;
-            padding-left: 10px;
+        .contact-grid {
+          grid-template-columns: 1fr;
         }
-        .section-card h3 {
-            color: #004d40;
-            font-size: 15px;
-            margin-top: 20px;
-            margin-bottom: 8px;
+        h2 {
+          font-size: 26px;
         }
-        p, li {
-            font-size: 13.5px;
-            color: #4f5f5d;
-            text-align: justify;
-        }
-        ul {
-            padding-left: 18px;
-        }
-        li {
-            margin-bottom: 6px;
-        }
-        .faq-item {
-            border-bottom: 1px solid #e0f7fa;
-            padding: 15px 0;
-        }
-        .faq-item:last-child {
-            border-bottom: none;
-        }
-        .faq-question {
-            font-weight: 600;
-            color: #00796b;
-            font-size: 14.5px;
-            margin-bottom: 6px;
-        }
-        .faq-answer {
-            margin: 0;
-            color: #555555;
-            font-size: 13.5px;
-        }
-        .alert-box {
-            background-color: #ffebee;
-            border-left: 4px solid #ef5350;
-            padding: 12px;
-            margin: 15px 0;
-            border-radius: 4px;
-        }
-        .alert-box p {
-            color: #c62828;
-            margin: 0;
-            font-weight: 500;
-        }
-        footer {
-            background-color: #004d40;
-            color: #ffffff;
-            text-align: center;
-            padding: 20px;
-            font-size: 12px;
-            margin-top: 40px;
-            border-radius: 6px;
-        }
-        footer a {
-            color: #e0f7fa;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .last-updated {
-            font-style: italic;
-            color: #888888;
-            font-size: 11px;
-            margin-bottom: 15px;
-            display: block;
-        }
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="container">
-        
-        <div class="tabs">
-            <a href="#privacy" class="tab-link">Privacy Policy</a>
-            <a href="#terms" class="tab-link">Terms & Conditions</a>
-            <a href="#refund" class="tab-link">Refund Policy</a>
-            <a href="#faq" class="tab-link">Detailed FAQs</a>
+      <!-- TOP HELP SECTION -->
+      <div class="help-mini-card animate-on-scroll">
+        <p>
+          💬 सहायता चाहिए? हमसे जुड़ें:
+          <a href="https://t.me/study25official" target="_blank">Telegram</a> |
+          <a href="mailto:Study25official@gmail.com">Email Us</a>
+        </p>
+      </div>
+
+      <!-- PRIVACY POLICY -->
+      <div id="privacy" class="section-card animate-on-scroll">
+        <h2>Privacy Policy (गोपनीयता नीति)</h2>
+        <span class="last-updated">📅 अंतिम अपडेट: मई 2026</span>
+
+        <p>
+          Study 25 एक शैक्षणिक प्लेटफ़ॉर्म है जिसका उद्देश्य विद्यार्थियों को
+          सरल, सुरक्षित और गुणवत्तापूर्ण अध्ययन सामग्री उपलब्ध कराना है। Zenth
+          Labs द्वारा संचालित यह एप्लीकेशन उपयोगकर्ताओं की गोपनीयता को अत्यंत
+          गंभीरता से लेता है। हम समझते हैं कि आज के डिजिटल युग में डेटा सुरक्षा
+          केवल एक तकनीकी आवश्यकता नहीं बल्कि विश्वास का आधार है। इसलिए Study 25
+          केवल वही सीमित जानकारी एकत्र करता है जो एप्लीकेशन को सुरक्षित,
+          विश्वसनीय और सुचारू रूप से संचालित करने के लिए आवश्यक होती है।
+        </p>
+
+        <p>
+          जब कोई उपयोगकर्ता Study 25 एप्लीकेशन का उपयोग करता है, तब वह हमारी
+          गोपनीयता नीति से सहमत माना जाता है। हम उपयोगकर्ता के व्यक्तिगत डेटा को
+          किसी बाहरी कंपनी, विज्ञापन नेटवर्क या अनधिकृत संस्था के साथ बेचते,
+          साझा करते या वितरित नहीं करते। हमारा प्राथमिक उद्देश्य केवल अध्ययन
+          सेवाएँ प्रदान करना और ऐप सुरक्षा बनाए रखना है।
+        </p>
+
+        <h3>1.1 एकत्र की जाने वाली जानकारी</h3>
+        <p>
+          Study 25 उपयोगकर्ताओं से केवल सीमित और आवश्यक जानकारी एकत्र करता है।
+          इसमें ईमेल आईडी, उपयोगकर्ता नाम, डिवाइस आईडी और भुगतान सत्यापन से
+          संबंधित ट्रांजैक्शन जानकारी शामिल हो सकती है। यह डेटा केवल सुरक्षा,
+          लॉगिन, प्रीमियम एक्सेस और तकनीकी सहायता उद्देश्यों के लिए उपयोग किया
+          जाता है।
+        </p>
+
+        <ul class="info-list">
+          <li><strong>Email ID:</strong> लॉगिन और उपयोगकर्ता पहचान के लिए।</li>
+          <li>
+            <strong>User Name:</strong> प्रोफ़ाइल और व्यक्तिगत अनुभव हेतु।
+          </li>
+          <li>
+            <strong>Device ID:</strong> अकाउंट सुरक्षा और अनधिकृत शेयरिंग रोकने
+            हेतु।
+          </li>
+          <li>
+            <strong>Transaction ID:</strong> भुगतान सत्यापन और सहायता उद्देश्यों
+            के लिए।
+          </li>
+        </ul>
+
+        <h3>1.2 डेटा उपयोग का उद्देश्य</h3>
+        <p>
+          एकत्र किया गया डेटा केवल एप्लीकेशन को सुरक्षित और बेहतर बनाने के लिए
+          उपयोग किया जाता है। हम उपयोगकर्ता डेटा का उपयोग निम्नलिखित उद्देश्यों
+          के लिए कर सकते हैं:
+        </p>
+
+        <ul class="info-list">
+          <li>नोट्स एक्सेस सत्यापित करना</li>
+          <li>अकाउंट सुरक्षा सुनिश्चित करना</li>
+          <li>तकनीकी समस्याओं का समाधान करना</li>
+          <li>फर्जी गतिविधियों की पहचान करना</li>
+          <li>महत्वपूर्ण अपडेट और नोटिफिकेशन भेजना</li>
+        </ul>
+
+        <p>
+          Study 25 किसी भी उपयोगकर्ता की निजी बातचीत, व्यक्तिगत फोटो, संपर्क
+          सूची, माइक्रोफोन डेटा या अन्य संवेदनशील जानकारी एकत्र नहीं करता। हमारा
+          ऐप केवल वही अनुमति उपयोग करता है जो अध्ययन सेवाओं और सुरक्षा के लिए
+          आवश्यक हो।
+        </p>
+
+        <h3>1.3 डेटा सुरक्षा</h3>
+        <p>
+          उपयोगकर्ता डेटा को सुरक्षित रखने के लिए आधुनिक सुरक्षा तकनीकों का
+          उपयोग किया जाता है। हमारा प्लेटफ़ॉर्म सुरक्षित डेटाबेस संरचना का उपयोग
+          करता है। डेटा एक्सेस सीमित और नियंत्रित रहता है। केवल अधिकृत सिस्टम और
+          आवश्यक उपयोगकर्ताओं को सीमित स्तर पर डेटा एक्सेस प्रदान किया जाता है।
+        </p>
+
+        <p>
+          Study 25 सुरक्षा कारणों से संदिग्ध गतिविधियों की निगरानी कर सकता है।
+          यदि किसी अकाउंट में असामान्य लॉगिन, डिवाइस परिवर्तन या संदिग्ध उपयोग
+          पाया जाता है, तो सुरक्षा सिस्टम स्थायी रूप से अकाउंट डिलीशन कर सकता
+          है।
+        </p>
+
+        <h3>1.4 थर्ड पार्टी सेवाएँ</h3>
+        <p>
+          एप्लीकेशन में कुछ सेवाएँ जैसे Google Authentication, Local storage ,
+          Analytics या अन्य सुरक्षित क्लाउड सेवाएँ उपयोग की जा सकती हैं। ये
+          सेवाएँ केवल एप्लीकेशन की कार्यक्षमता और सुरक्षा बढ़ाने के लिए उपयोग
+          होती हैं।
+        </p>
+
+        <p>
+          Study 25 किसी भी प्रकार के विज्ञापन ट्रैकिंग सिस्टम का उपयोग नहीं
+          करता। उपयोगकर्ता डेटा का उपयोग विज्ञापन बेचने या व्यक्तिगत मार्केटिंग
+          प्रोफाइल बनाने के लिए नहीं किया जाता।
+        </p>
+
+        <h3>1.5 अकाउंट डिलीशन</h3>
+        <p>
+          उपयोगकर्ता अपने अकाउंट और संबंधित डेटा को हटाने का अनुरोध कर सकते हैं।
+          इसके लिए उपयोगकर्ता को अपनी रजिस्टर्ड ईमेल आईडी से हमारी
+          <a href="#support-contact">सहायता टीम</a> को संपर्क करना होगा। सत्यापन
+          के बाद उपयोगकर्ता डेटा को स्थायी रूप से हटाया जा सकता है।
+        </p>
+
+        <h3>1.6 Users</h3>
+        <p>
+          Study 25 मुख्य रूप से कॉलेज परीक्षाओं की तैयारी करने वाले
+          विद्यार्थियों के लिए बनाया गया है। यदि कोई उपयोगकर्ता एप्लीकेशन का
+          उपयोग करता है, तो अभिभावक की निगरानी और अनुमति आवश्यक मानी जाएगी।
+        </p>
+
+        <h3>1.7 नीति में परिवर्तन</h3>
+        <p>
+          Study 25 समय-समय पर अपनी गोपनीयता नीति में परिवर्तन कर सकता है।
+          उपयोगकर्ताओं को सलाह दी जाती है कि वे नियमित रूप से अपडेटेड नीति पढ़ते
+          रहें। एप्लीकेशन का निरंतर उपयोग नई नीति की स्वीकृति माना जाएगा।
+        </p>
+
+        <div class="alert-box">
+          <p>
+            🔒 <strong>सुरक्षा सूचना:</strong> Study 25 उपयोगकर्ताओं की गोपनीयता
+            और डेटा सुरक्षा को सर्वोच्च प्राथमिकता देता है। हम केवल सीमित आवश्यक
+            डेटा का उपयोग करते हैं और उसे सुरक्षित रखने के लिए आधुनिक सुरक्षा
+            प्रणालियों का उपयोग करते हैं।
+          </p>
         </div>
+      </div>
 
-        <div id="privacy" class="section-card">
-            <h2>Privacy Policy (गोपनीयता नीति)</h2>
-            <span class="last-updated">अंतिम अपडेट: मई 2026</span>
-            <p>Zenth Labs द्वारा संचालित <strong>Study 25</strong> एजुकेशनल एप्लीकेशन का उपयोग करने वाले सभी परीक्षार्थियों और छात्रों की डेटा गोपनीयता हमारे लिए अत्यंत महत्वपूर्ण है। यह नीति स्पष्ट करती है कि हम आपकी शैक्षणिक यात्रा को सुरक्षित बनाने के लिए कौन सा डेटा कलेक्ट करते हैं।</p>
-            
-            <h3>1.1 एकत्र की जाने वाली जानकारी (Information We Collect)</h3>
-            <ul>
-                <li><strong>प्राथमिक पहचान (Google Authentication):</strong> जब आप ऐप में त्वरित लॉगिन के लिए 'Google Sign-In' का विकल्प चुनते हैं, तो हमारा सिस्टम फायरबेस ऑथेंटिकेशन के माध्यम से आपका नाम, प्रमाणित ईमेल आईडी और प्रोफाइल इमेज कलेक्ट करता है।</li>
-                <li><strong>सुरक्षा टोकन (Hardware ID):</strong> आपकी अध्ययन सामग्री को सुरक्षित रखने और अवैध कमर्शियल शेयरिंग को रोकने के लिए हम आपके डिवाइस का <code>ANDROID_ID</code> रिकॉर्ड करते हैं। यह सुनिश्चित करता है कि आपकी विशिष्ट ईमेल आईडी केवल आपके व्यक्तिगत स्मार्टफोन से लिंक रहे।</li>
-                <li><strong>ट्रांजैक्शन लॉग्स:</strong> किसी भी डिजिटल कोर्स या पीडीएफ पैकेज को खरीदते समय, थर्ड-पार्टी पेमेंट गेटवे (जैसे Razorpay / Google Billing) केवल एक सुरक्षित 'Success/Failure Token' और ट्रांजैक्शन आईडी हमारे फायरबेस स्टोरबेस के साथ साझा करता है।</li>
-            </ul>
+      <!-- TERMS -->
+      <div id="terms" class="section-card animate-on-scroll">
+        <h2>Terms & Conditions (नियम एवं शर्तें)</h2>
+        <span class="last-updated">📅 अंतिम अपडेट: मई 2026</span>
 
-            <div class="alert-box">
-                <p>⚠️ महत्वपूर्ण सुरक्षा घोषणा: Zenth Labs आपके संवेदनशील वित्तीय डेटा (जैसे नेट बैंकिंग क्रेडेंशियल, डेबिट/क्रेडिट कार्ड नंबर, यूपीआई पिन या पासवर्ड) को कभी भी न तो रिकॉर्ड करता है और ना ही मांगता है।</p>
+        <p>
+          Study 25 एप्लीकेशन का उपयोग करके उपयोगकर्ता इन सभी नियमों एवं शर्तों
+          से सहमत होते हैं। ये नियम प्लेटफ़ॉर्म की सुरक्षा, निष्पक्ष उपयोग और
+          अध्ययन सामग्री की सुरक्षा बनाए रखने के लिए बनाए गए हैं।
+        </p>
+
+        <h3>2.1 व्यक्तिगत उपयोग</h3>
+        <p>
+          Study 25 पर उपलब्ध सभी नोट्स, पीडीएफ, PYQ, क्विज़ और अध्ययन सामग्री
+          केवल व्यक्तिगत शैक्षणिक उपयोग के लिए प्रदान की जाती है। किसी भी प्रकार
+          की कॉपी, पुनर्वितरण या व्यावसायिक उपयोग की अनुमति नहीं है।
+        </p>
+
+        <h3>2.2 अकाउंट सुरक्षा</h3>
+        <p>
+          उपयोगकर्ता अपने लॉगिन विवरण की सुरक्षा के लिए स्वयं जिम्मेदार होंगे।
+          अकाउंट शेयरिंग या अनधिकृत उपयोग नियमों का उल्लंघन माना जाएगा।
+        </p>
+
+        <h3>2.3 सिंगल डिवाइस पॉलिसी</h3>
+        <p>
+          सुरक्षा कारणों से एक अकाउंट एक समय में केवल एक डिवाइस पर सक्रिय रह
+          सकता है। बार-बार डिवाइस बदलने पर अकाउंट अस्थायी रूप से लॉक किया जा
+          सकता है।
+        </p>
+
+        <h3>2.4 कंटेंट सुरक्षा</h3>
+        <p>
+          स्क्रीन रिकॉर्डिंग, स्क्रीनशॉट, नोट्स शेयरिंग, पाइरेसी या किसी भी
+          प्रकार की सामग्री चोरी प्रतिबंधित है। नियमों का उल्लंघन पाए जाने पर
+          अकाउंट समाप्त किया जा सकता है।
+        </p>
+
+        <h3>2.5 भुगतान नियम</h3>
+        <p>
+          सभी भुगतान डिजिटल सेवाओं की श्रेणी में आते हैं। उपयोगकर्ता भुगतान करने
+          से पहले कोर्स और योजना की पूरी जानकारी पढ़ लें।
+        </p>
+
+        <h3>2.6 सेवा परिवर्तन अधिकार</h3>
+        <p>
+          Study 25 किसी भी समय फीचर्स, कीमतों, योजनाओं या अध्ययन सामग्री में
+          परिवर्तन कर सकता है।
+        </p>
+
+        <h3>2.7 निषिद्ध गतिविधियाँ (Prohibited Activities)</h3>
+        <p>
+          नीचे दी गई गतिविधियों को ऐप पर अनुमति नहीं है, ऐसा करने पर अकाउंट बंद
+          किया जा सकता है:
+        </p>
+        <ul class="info-list">
+          <li>ऐप सुरक्षा के साथ छेड़छाड़ करने की कोशिश करना।</li>
+          <li>
+            एक ही अकाउंट को बार-बार अलग-अलग डिवाइस पर चलाना (डिवाइस बदलना)।
+          </li>
+          <li>
+            पेमेंट के बारे में गलत जानकारी देना या स्क्रीनशॉट के साथ छेड़छाड़
+            करना।
+          </li>
+          <li>ऐप के नोट्स को शेयर करना।</li>
+        </ul>
+
+        <h3>2.8 सीमित उत्तरदायित्व</h3>
+        <p>
+          Study 25 विश्वविद्यालयों द्वारा अचानक किए गए सिलेबस परिवर्तन, परीक्षा
+          तिथि बदलाव या आधिकारिक निर्णयों के लिए जिम्मेदार नहीं होगा।
+        </p>
+      </div>
+
+      <!-- FAQ -->
+      <div id="faq" class="section-card animate-on-scroll">
+        <h2>Frequently Asked Questions (FAQs)</h2>
+        <span class="last-updated">💡 प्रश्न देखने के लिए क्लिक करें</span>
+
+        <div class="faq-wrapper">
+          <div class="faq-item">
+            <div class="faq-question">Q1. Study 25 क्या है?</div>
+            <div class="faq-answer">
+              <p>
+                Study 25 एक शैक्षणिक प्लेटफ़ॉर्म है जो विश्वविद्यालय
+                परीक्षाओं,और अन्य परीक्षाओं के लिए नोट्स, PYQ और अध्ययन सामग्री
+                प्रदान करता है।
+              </p>
             </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">Q2. नोट्स कैसे खरीदें?</div>
+            <div class="faq-answer">
+              <p>
+                उपयोगकर्ता एप्लीकेशन में दिए गए भुगतान निर्देशों का पालन करके
+                UPI के माध्यम से भुगतान कर सकते हैं। भुगतान सत्यापन के बाद कोर्स
+                सक्रिय कर दिया जाता है।
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">Q7. सहायता के लिए कैसे संपर्क करें?</div>
+            <div class="faq-answer">
+              <p>
+                उपयोगकर्ता ईमेल या आधिकारिक टेलीग्राम सहायता माध्यम के जरिए
+                संपर्क कर सकते हैं। अधिक जानकारी के लिए नीचे
+                <a href="#support-contact">Help & Support</a> देखें।
+              </p>
+            </div>
+          </div>
+          <!-- अन्य FAQs यहाँ बने रहेंगे -->
         </div>
+      </div>
 
-        <div id="terms" class="section-card">
-            <h2>Terms & Conditions (नियम और शर्तें)</h2>
-            <span class="last-updated">अंतिम अपडेट: मई 2026</span>
-            <p>Study 25 एप्लीकेशन पर रजिस्टर करते ही आप कानूनी रूप से हमारे निम्नलिखित नियमों का पालन करने के लिए उत्तरदायी होते हैं:</p>
-            
-            <h3>2.1 सिंगल डिवाइस रिस्ट्रिक्शन (Single Device Enforcement)</h3>
-            <p>आपका प्रीमियम सब्सक्रिप्शन या खरीदे गए नोट्स पूरी तरह से व्यक्तिगत उपयोग के लिए हैं। कोडिंग लॉजिक के अनुसार, एक ईमेल आईडी केवल एक ही सक्रिय <code>ANDROID_ID</code> (स्मार्टफोन) पर नोट्स प्रदर्शित कर सकती है। यदि आप एक ही समय में या बार-बार अलग-अलग डिवाइस पर लॉगिन बदलने का प्रयास करेंगे, तो हमारा सुरक्षा सिस्टम संदिग्ध गतिविधि के तहत आपके अकाउंट को स्वचालित रूप से सस्पेंड कर देगा।</p>
+      <!-- BOTTOM HELP & SUPPORT SECTION -->
+      <div
+        id="support-contact"
+        class="section-card animate-on-scroll"
+        style="border: 2px solid var(--primary)"
+      >
+        <h2>Help & Support (सहायता केंद्र)</h2>
+        <p>
+          अगर आपको ऐप, नोट्स या पेमेंट से जुड़ी कोई भी समस्या है, तो आप नीचे दिए
+          गए माध्यमों से हमसे संपर्क कर सकते हैं:
+        </p>
 
-            <h3>2.2 नो वेब-रीडिंग पॉलिसी (No Web/Browser Reading)</h3>
-            <p>पाइरेसी और कंटेंट सुरक्षा कारणों से, <strong>Study 25 के प्रीमियम नोट्स, पीडीएफ, टाइमलाइन ट्रैकर और मॉक टेस्ट केवल और केवल हमारे आधिकारिक एंड्रॉइड एप्लीकेशन के अंदर ही पढ़े जा सकते हैं।</strong> इन्हें किसी भी प्रकार की वेबसाइट, कंप्यूटर ब्राउज़र, एमुलेटर (जैसे Bluestacks) या स्मार्ट टीवी पर खोलने की अनुमति नहीं है।</p>
-
-            <h3>2.3 कॉपीराइट एवं डिजिटल सुरक्षा (Anti-Piracy Rules)</h3>
-            <ul>
-                <li>Study 25 ऐप में उपलब्ध इतिहास (UGC NET / CUET PG) के संपूर्ण नोट्स Zenth Labs की कॉपीराइट संपत्ति हैं।</li>
-                <li>एप्लीकेशन के अंदर स्क्रीनशॉट लेना, स्क्रीन रिकॉर्डिंग टूल्स चलाना, या नोट्स की सामग्री को कॉपी करके सोशल मीडिया (व्हाट्सएप, टेलीग्राम, यूट्यूब आदि) पर वितरित करना कानूनी अपराध है। ऐप में मौजूद <code>FLAG_SECURE</code> मैकेनिज्म ऐसी गतिविधियों को ब्लॉक करता है, और उल्लंघन करने वाले यूजर का एक्सेस हमेशा के लिए खत्म कर दिया जाएगा।</li>
-            </ul>
+        <div class="contact-grid">
+          <a href="mailto:Study25official@gmail.com" class="contact-link mail">
+            <span>📧 Email: Study25official@gmail.com</span>
+          </a>
+          <a
+            href="https://t.me/study25official"
+            target="_blank"
+            class="contact-link telegram"
+          >
+            <span>✈️ Telegram: @study25official</span>
+          </a>
         </div>
-
-        <div id="refund" class="section-card">
-            <h2>Refund & Cancellation Policy (रिफंड एवं रद्दीकरण नीति)</h2>
-            <span class="last-updated">अंतिम अपडेट: मई 2026</span>
-            <p>कृपया कोई भी भुगतान करने से पहले हमारी भुगतान नीतियों को ध्यान से समझें:</p>
-            
-            <h3>3.1 डिजिटल कंटेंट नियम (Instant Consumption)</h3>
-            <p>चूंकि हमारे द्वारा दी जाने वाली सभी अध्ययन सामग्रियां (इतिहास नोट्स, पीवाईक्यू क्विज़, राजवंश टाइमलाइन) "डिजिटल गुड्स" की श्रेणी में आती हैं, जिनका भुगतान करते ही तुरंत पूरा एक्सेस मिल जाता है, इसलिए **एक बार पेमेंट सफल होने के बाद किसी भी परिस्थिति में रिफंड या कैंसिलेशन संभव नहीं होगा।**</p>
-            <p>छात्रों की सुविधा के लिए हमने प्रत्येक यूनिट का पहला अध्याय "Free Demo" के रूप में उपलब्ध कराया है। आप पहले सामग्री की गुणवत्ता देख लें, संतुष्ट होने पर ही प्रीमियम प्लान खरीदें।</p>
-
-            <h3>3.2 तकनीकी अपवाद (Technical Failures)</h3>
-            <p>यदि आपके बैंक खाते या यूपीआई से राशि कट गई है, लेकिन तकनीकी त्रुटि (Network Drop / Server Delay) के कारण ऐप में नोट्स अनलॉक नहीं हुए हैं, तो ऐसी स्थिति में पूरी राशि आपके मूल खाते में वापस (Auto-Refund) आ जाएगी। यदि 48 घंटों में ऐसा नहीं होता है, तो आप सपोर्ट टीम से संपर्क कर सकते हैं।</p>
-        </div>
-
-        <div id="faq" class="section-card">
-            <h2>Frequently Asked Questions (विस्तृत अक्सर पूछे जाने वाले प्रश्न)</h2>
-            <span class="last-updated">हेल्पडेस्क सपोर्ट गाइड</span>
-            
-            <div class="faq-item">
-                <div class="faq-question">Q1. मेरे बैंक से पैसे कट गए हैं, लेकिन ऐप में नोट्स अभी भी लॉक दिखा रहे हैं। मुझे क्या करना चाहिए?</div>
-                <div class="faq-answer">घबराएं नहीं, आपका पैसा बिल्कुल सुरक्षित है। ऐसा तब होता है जब पेमेंट गेटवे (जैसे Razorpay) और हमारे डेटाबेस (Firestore) के बीच नेटवर्क स्लो होने के कारण सिग्नल ड्रॉप हो जाता है। 
-                <br><strong>समाधान:</strong> ऐप को एक बार बैकग्राउंड से पूरी तरह बंद (Force Close) करें और दोबारा खोलें। यदि 15-30 मिनट में भी नोट्स अनलॉक नहीं होते, तो ऐप के 'Contact Admin' या व्हाट्सएप बटन पर क्लिक करके अपनी पेमेंट रसीद/ट्रांजैक्शन आईडी भेजें। हमारी टीम बैकएंड से आपके ईमेल का स्टेटस मैन्युअली 'Approved' कर देगी।</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">Q2. क्या मैं इन नोट्स को कंप्यूटर, लैपटॉप या अपनी वेबसाइट पर लॉगिन करके पढ़ सकता हूँ?</div>
-                <div class="faq-answer"><strong>नहीं।</strong> Study 25 के सभी प्रीमियम नोट्स केवल सुरक्षा मानकों से लैस मोबाइल ऐप के अंदर ही पढ़े जा सकते हैं। वेबसाइट या कंप्यूटर ब्राउज़र पर पीडीएफ को सुरक्षित रखना (पाइरेसी रोकना) मुश्किल होता है, इसलिए यह सुविधा केवल एंड्रॉइड ऐप तक ही सीमित रखी गई है।</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">Q3. अगर मैं नया फोन खरीदता हूँ या पुराना फोन रीसेट करता हूँ, तो क्या मेरे नोट्स चले जाएंगे?</div>
-                <div class="faq-answer">नहीं, आपके नोट्स सुरक्षित रहेंगे। आपके द्वारा खरीदे गए नोट्स आपकी <strong>Google Email ID</strong> से जुड़े होते हैं। नए फोन में आपको बस उसी सेम ईमेल आईडी से लॉग-इन करना होगा। हालांकि, सुरक्षा लॉक के कारण पुराने डिवाइस से आपका अकाउंट अपने आप लॉग-आउट हो जाएगा। यदि डिवाइस बदलने पर 'Device Locked' का एरर आए, तो आप सहायता केंद्र पर संपर्क करके अपना डिवाइस आईडी रीसेट करवा सकते हैं।</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">Q4. क्या भुगतान करने के बाद नोट्स को ऑफलाइन डाउनलोड या प्रिंट किया जा सकता है?</div>
-                <div class="faq-answer">ऐप के अंदर आप नोट्स को ऑफलाइन मोड में बिना इंटरनेट के पढ़ने के लिए डाउनलोड कर सकते हैं। लेकिन सुरक्षा और कॉपीराइट नियमों के कारण, इन पीडीएफ फाइलों को फोन के फाइल मैनेजर में सेव करने, शेयर करने या प्रिंट निकालने की अनुमति नहीं दी जाती है।</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">Q5. अगर परीक्षा का सिलेबस बदल जाता है, तो क्या मुझे नए नोट्स के लिए फिर से भुगतान करना होगा?</div>
-                <div class="faq-answer">बिल्कुल नहीं! यदि आपके एक्टिव सब्सक्रिप्शन प्लान के दौरान UGC NET या CUET PG इतिहास का सिलेबस बदलता है, तो अपडेटेड नोट्स आपको बिना किसी अतिरिक्त शुल्क के ऐप में ऑटोमैटिकली मिल जाएंगे। Zenth Labs हमेशा नवीनतम पाठ्यक्रम प्रदान करने के लिए प्रतिबद्ध है।</div>
-            </div>
-        </div>
-
+        <p
+          style="
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-top: 15px;
+            text-align: center;
+          "
+        >
+          नोट: सहायता के लिए कृपया अपनी रजिस्टर्ड ईमेल आईडी और पेमेंट स्क्रीनशॉट
+          साथ रखें।
+        </p>
+      </div>
     </div>
 
-    <footer>
-        <p>&copy; 2026 Zenth Labs. All Rights Reserved. | Study 25 Security Dashboard</p>
-        <p>तकनीकी सहायता या मैन्युअल नोट्स एक्टिवेशन के लिए संपर्क करें: <a href="mailto:support@zenthlabs.com">support@zenthlabs.com</a></p>
-    </footer>
+    <script>
+      // FAQ Logic
+      document.querySelectorAll(".faq-question").forEach((button) => {
+        button.addEventListener("click", () => {
+          const faqItem = button.parentElement;
+          const isActive = faqItem.classList.contains("active");
+          document
+            .querySelectorAll(".faq-item")
+            .forEach((item) => item.classList.remove("active"));
+          if (!isActive) faqItem.classList.add("active");
+        });
+      });
 
-</body>
+      // Scroll Animation
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) entry.target.classList.add("show");
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      document
+        .querySelectorAll(".animate-on-scroll")
+        .forEach((el) => observer.observe(el));
+    </script>
+  </body>
 </html>
