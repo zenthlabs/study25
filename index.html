@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study 25 - Legal Center</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            background-color: #fafdfc;
+            margin: 0;
+            padding: 10px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 10px auto;
+            padding: 0 15px;
+        }
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #e0f7fa;
+            padding-bottom: 10px;
+        }
+        .tab-link {
+            display: inline-block;
+            padding: 8px 14px;
+            color: #00796b;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 13px;
+            border-radius: 4px;
+            margin: 4px;
+            background-color: #e0f7fa;
+            transition: all 0.3s ease;
+        }
+        .tab-link:hover {
+            background-color: #4db6ac;
+            color: #ffffff;
+        }
+        .section-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 25px 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0, 121, 107, 0.05);
+            border: 1px solid #e0f7fa;
+        }
+        .section-card h2 {
+            color: #00796b;
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            border-left: 5px solid #4db6ac;
+            padding-left: 10px;
+        }
+        .section-card h3 {
+            color: #004d40;
+            font-size: 15px;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        p, li {
+            font-size: 13.5px;
+            color: #4f5f5d;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 18px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .faq-item {
+            border-bottom: 1px solid #e0f7fa;
+            padding: 15px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-question {
+            font-weight: 600;
+            color: #00796b;
+            font-size: 14.5px;
+            margin-bottom: 6px;
+        }
+        .faq-answer {
+            margin: 0;
+            color: #555555;
+            font-size: 13.5px;
+        }
+        .alert-box {
+            background-color: #ffebee;
+            border-left: 4px solid #ef5350;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .alert-box p {
+            color: #c62828;
+            margin: 0;
+            font-weight: 500;
+        }
+        footer {
+            background-color: #004d40;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            margin-top: 40px;
+            border-radius: 6px;
+        }
+        footer a {
+            color: #e0f7fa;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #888888;
+            font-size: 11px;
+            margin-bottom: 15px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="tabs">
+            <a href="#privacy" class="tab-link">Privacy Policy</a>
+            <a href="#terms" class="tab-link">Terms & Conditions</a>
+            <a href="#refund" class="tab-link">Refund Policy</a>
+            <a href="#faq" class="tab-link">Detailed FAQs</a>
+        </div>
+
+        <div id="privacy" class="section-card">
+            <h2>Privacy Policy (गोपनीयता नीति)</h2>
+            <span class="last-updated">अंतिम अपडेट: मई 2026</span>
+            <p>Zenth Labs द्वारा संचालित <strong>Study 25</strong> एजुकेशनल एप्लीकेशन का उपयोग करने वाले सभी परीक्षार्थियों और छात्रों की डेटा गोपनीयता हमारे लिए अत्यंत महत्वपूर्ण है। यह नीति स्पष्ट करती है कि हम आपकी शैक्षणिक यात्रा को सुरक्षित बनाने के लिए कौन सा डेटा कलेक्ट करते हैं।</p>
+            
+            <h3>1.1 एकत्र की जाने वाली जानकारी (Information We Collect)</h3>
+            <ul>
+                <li><strong>प्राथमिक पहचान (Google Authentication):</strong> जब आप ऐप में त्वरित लॉगिन के लिए 'Google Sign-In' का विकल्प चुनते हैं, तो हमारा सिस्टम फायरबेस ऑथेंटिकेशन के माध्यम से आपका नाम, प्रमाणित ईमेल आईडी और प्रोफाइल इमेज कलेक्ट करता है।</li>
+                <li><strong>सुरक्षा टोकन (Hardware ID):</strong> आपकी अध्ययन सामग्री को सुरक्षित रखने और अवैध कमर्शियल शेयरिंग को रोकने के लिए हम आपके डिवाइस का <code>ANDROID_ID</code> रिकॉर्ड करते हैं। यह सुनिश्चित करता है कि आपकी विशिष्ट ईमेल आईडी केवल आपके व्यक्तिगत स्मार्टफोन से लिंक रहे।</li>
+                <li><strong>ट्रांजैक्शन लॉग्स:</strong> किसी भी डिजिटल कोर्स या पीडीएफ पैकेज को खरीदते समय, थर्ड-पार्टी पेमेंट गेटवे (जैसे Razorpay / Google Billing) केवल एक सुरक्षित 'Success/Failure Token' और ट्रांजैक्शन आईडी हमारे फायरबेस स्टोरबेस के साथ साझा करता है।</li>
+            </ul>
+
+            <div class="alert-box">
+                <p>⚠️ महत्वपूर्ण सुरक्षा घोषणा: Zenth Labs आपके संवेदनशील वित्तीय डेटा (जैसे नेट बैंकिंग क्रेडेंशियल, डेबिट/क्रेडिट कार्ड नंबर, यूपीआई पिन या पासवर्ड) को कभी भी न तो रिकॉर्ड करता है और ना ही मांगता है।</p>
+            </div>
+        </div>
+
+        <div id="terms" class="section-card">
+            <h2>Terms & Conditions (नियम और शर्तें)</h2>
+            <span class="last-updated">अंतिम अपडेट: मई 2026</span>
+            <p>Study 25 एप्लीकेशन पर रजिस्टर करते ही आप कानूनी रूप से हमारे निम्नलिखित नियमों का पालन करने के लिए उत्तरदायी होते हैं:</p>
+            
+            <h3>2.1 सिंगल डिवाइस रिस्ट्रिक्शन (Single Device Enforcement)</h3>
+            <p>आपका प्रीमियम सब्सक्रिप्शन या खरीदे गए नोट्स पूरी तरह से व्यक्तिगत उपयोग के लिए हैं। कोडिंग लॉजिक के अनुसार, एक ईमेल आईडी केवल एक ही सक्रिय <code>ANDROID_ID</code> (स्मार्टफोन) पर नोट्स प्रदर्शित कर सकती है। यदि आप एक ही समय में या बार-बार अलग-अलग डिवाइस पर लॉगिन बदलने का प्रयास करेंगे, तो हमारा सुरक्षा सिस्टम संदिग्ध गतिविधि के तहत आपके अकाउंट को स्वचालित रूप से सस्पेंड कर देगा।</p>
+
+            <h3>2.2 नो वेब-रीडिंग पॉलिसी (No Web/Browser Reading)</h3>
+            <p>पाइरेसी और कंटेंट सुरक्षा कारणों से, <strong>Study 25 के प्रीमियम नोट्स, पीडीएफ, टाइमलाइन ट्रैकर और मॉक टेस्ट केवल और केवल हमारे आधिकारिक एंड्रॉइड एप्लीकेशन के अंदर ही पढ़े जा सकते हैं।</strong> इन्हें किसी भी प्रकार की वेबसाइट, कंप्यूटर ब्राउज़र, एमुलेटर (जैसे Bluestacks) या स्मार्ट टीवी पर खोलने की अनुमति नहीं है।</p>
+
+            <h3>2.3 कॉपीराइट एवं डिजिटल सुरक्षा (Anti-Piracy Rules)</h3>
+            <ul>
+                <li>Study 25 ऐप में उपलब्ध इतिहास (UGC NET / CUET PG) के संपूर्ण नोट्स Zenth Labs की कॉपीराइट संपत्ति हैं।</li>
+                <li>एप्लीकेशन के अंदर स्क्रीनशॉट लेना, स्क्रीन रिकॉर्डिंग टूल्स चलाना, या नोट्स की सामग्री को कॉपी करके सोशल मीडिया (व्हाट्सएप, टेलीग्राम, यूट्यूब आदि) पर वितरित करना कानूनी अपराध है। ऐप में मौजूद <code>FLAG_SECURE</code> मैकेनिज्म ऐसी गतिविधियों को ब्लॉक करता है, और उल्लंघन करने वाले यूजर का एक्सेस हमेशा के लिए खत्म कर दिया जाएगा।</li>
+            </ul>
+        </div>
+
+        <div id="refund" class="section-card">
+            <h2>Refund & Cancellation Policy (रिफंड एवं रद्दीकरण नीति)</h2>
+            <span class="last-updated">अंतिम अपडेट: मई 2026</span>
+            <p>कृपया कोई भी भुगतान करने से पहले हमारी भुगतान नीतियों को ध्यान से समझें:</p>
+            
+            <h3>3.1 डिजिटल कंटेंट नियम (Instant Consumption)</h3>
+            <p>चूंकि हमारे द्वारा दी जाने वाली सभी अध्ययन सामग्रियां (इतिहास नोट्स, पीवाईक्यू क्विज़, राजवंश टाइमलाइन) "डिजिटल गुड्स" की श्रेणी में आती हैं, जिनका भुगतान करते ही तुरंत पूरा एक्सेस मिल जाता है, इसलिए **एक बार पेमेंट सफल होने के बाद किसी भी परिस्थिति में रिफंड या कैंसिलेशन संभव नहीं होगा।**</p>
+            <p>छात्रों की सुविधा के लिए हमने प्रत्येक यूनिट का पहला अध्याय "Free Demo" के रूप में उपलब्ध कराया है। आप पहले सामग्री की गुणवत्ता देख लें, संतुष्ट होने पर ही प्रीमियम प्लान खरीदें।</p>
+
+            <h3>3.2 तकनीकी अपवाद (Technical Failures)</h3>
+            <p>यदि आपके बैंक खाते या यूपीआई से राशि कट गई है, लेकिन तकनीकी त्रुटि (Network Drop / Server Delay) के कारण ऐप में नोट्स अनलॉक नहीं हुए हैं, तो ऐसी स्थिति में पूरी राशि आपके मूल खाते में वापस (Auto-Refund) आ जाएगी। यदि 48 घंटों में ऐसा नहीं होता है, तो आप सपोर्ट टीम से संपर्क कर सकते हैं।</p>
+        </div>
+
+        <div id="faq" class="section-card">
+            <h2>Frequently Asked Questions (विस्तृत अक्सर पूछे जाने वाले प्रश्न)</h2>
+            <span class="last-updated">हेल्पडेस्क सपोर्ट गाइड</span>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q1. मेरे बैंक से पैसे कट गए हैं, लेकिन ऐप में नोट्स अभी भी लॉक दिखा रहे हैं। मुझे क्या करना चाहिए?</div>
+                <div class="faq-answer">घबराएं नहीं, आपका पैसा बिल्कुल सुरक्षित है। ऐसा तब होता है जब पेमेंट गेटवे (जैसे Razorpay) और हमारे डेटाबेस (Firestore) के बीच नेटवर्क स्लो होने के कारण सिग्नल ड्रॉप हो जाता है। 
+                <br><strong>समाधान:</strong> ऐप को एक बार बैकग्राउंड से पूरी तरह बंद (Force Close) करें और दोबारा खोलें। यदि 15-30 मिनट में भी नोट्स अनलॉक नहीं होते, तो ऐप के 'Contact Admin' या व्हाट्सएप बटन पर क्लिक करके अपनी पेमेंट रसीद/ट्रांजैक्शन आईडी भेजें। हमारी टीम बैकएंड से आपके ईमेल का स्टेटस मैन्युअली 'Approved' कर देगी।</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q2. क्या मैं इन नोट्स को कंप्यूटर, लैपटॉप या अपनी वेबसाइट पर लॉगिन करके पढ़ सकता हूँ?</div>
+                <div class="faq-answer"><strong>नहीं।</strong> Study 25 के सभी प्रीमियम नोट्स केवल सुरक्षा मानकों से लैस मोबाइल ऐप के अंदर ही पढ़े जा सकते हैं। वेबसाइट या कंप्यूटर ब्राउज़र पर पीडीएफ को सुरक्षित रखना (पाइरेसी रोकना) मुश्किल होता है, इसलिए यह सुविधा केवल एंड्रॉइड ऐप तक ही सीमित रखी गई है।</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q3. अगर मैं नया फोन खरीदता हूँ या पुराना फोन रीसेट करता हूँ, तो क्या मेरे नोट्स चले जाएंगे?</div>
+                <div class="faq-answer">नहीं, आपके नोट्स सुरक्षित रहेंगे। आपके द्वारा खरीदे गए नोट्स आपकी <strong>Google Email ID</strong> से जुड़े होते हैं। नए फोन में आपको बस उसी सेम ईमेल आईडी से लॉग-इन करना होगा। हालांकि, सुरक्षा लॉक के कारण पुराने डिवाइस से आपका अकाउंट अपने आप लॉग-आउट हो जाएगा। यदि डिवाइस बदलने पर 'Device Locked' का एरर आए, तो आप सहायता केंद्र पर संपर्क करके अपना डिवाइस आईडी रीसेट करवा सकते हैं।</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q4. क्या भुगतान करने के बाद नोट्स को ऑफलाइन डाउनलोड या प्रिंट किया जा सकता है?</div>
+                <div class="faq-answer">ऐप के अंदर आप नोट्स को ऑफलाइन मोड में बिना इंटरनेट के पढ़ने के लिए डाउनलोड कर सकते हैं। लेकिन सुरक्षा और कॉपीराइट नियमों के कारण, इन पीडीएफ फाइलों को फोन के फाइल मैनेजर में सेव करने, शेयर करने या प्रिंट निकालने की अनुमति नहीं दी जाती है।</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q5. अगर परीक्षा का सिलेबस बदल जाता है, तो क्या मुझे नए नोट्स के लिए फिर से भुगतान करना होगा?</div>
+                <div class="faq-answer">बिल्कुल नहीं! यदि आपके एक्टिव सब्सक्रिप्शन प्लान के दौरान UGC NET या CUET PG इतिहास का सिलेबस बदलता है, तो अपडेटेड नोट्स आपको बिना किसी अतिरिक्त शुल्क के ऐप में ऑटोमैटिकली मिल जाएंगे। Zenth Labs हमेशा नवीनतम पाठ्यक्रम प्रदान करने के लिए प्रतिबद्ध है।</div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Zenth Labs. All Rights Reserved. | Study 25 Security Dashboard</p>
+        <p>तकनीकी सहायता या मैन्युअल नोट्स एक्टिवेशन के लिए संपर्क करें: <a href="mailto:support@zenthlabs.com">support@zenthlabs.com</a></p>
+    </footer>
+
+</body>
+</html>
