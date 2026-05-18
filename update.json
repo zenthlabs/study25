@@ -1,0 +1,12 @@
+{
+  "latest_version_code": 2,
+  "latest_version_name": "2.6.0",
+
+  "force_update": true,
+
+  "update_title": "New Update Available",
+
+  "update_message": "A new version of Study 25 is available with improvements and bug fixes. Please update for the best experience.",
+
+  "download_url": "https://yourwebsite.com/study25.apk"
+}
