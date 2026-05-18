@@ -2,7 +2,7 @@
   "latest_version_code": 2,
   "latest_version_name": "2.6.0",
 
-  "force_update": false,
+  "force_update": true,
 
   "update_title": "New Update Available",
 
