@@ -18,7 +18,7 @@
               "order": 1,
               "fees": 25,
               "status": "available",
-              "html_url": "ba/1st_year/BA-HIS-101-MJ.html"
+              "html_url": ""
             },
             {
               "subject_id": "ba_pol_102_mj",
@@ -28,74 +28,85 @@
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-POL-102-MJ.html"
-            },
-            {
-              "subject_id": "ba_soc_103_mn",
-              "subject_code": "BA-SOC-103-MN",
-              "subject_name_en": "Introduction to Sociology",
-              "subject_name": "समाजशास्त्र का परिचय",
-              "category": "Minor",
-              "order": 1,
-              "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-SOC-103-MN.html"
-            },
-            {
-              "subject_id": "ba_hin_104_sec",
-              "subject_code": "BA-HIN-104-SEC",
-              "subject_name_en": "Hindi Patrakarita",
-              "subject_name": "हिंदी पत्रकारिता",
-              "category": "SEC",
-              "order": 1,
-              "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-HIN-104-SEC.html"
-            },
-            {
-              "subject_id": "ba_eng_105_aecc",
-              "subject_code": "BA-ENG-105-AECC",
-              "subject_name_en": "Communicative English",
-              "subject_name": "संचारात्मक अंग्रेज़ी",
-              "category": "AECC",
-              "order": 1,
-              "fees": 25,
               "status": "upcoming",
-              "html_url": null
+              "html_url": ""
             },
             {
-              "subject_id": "ba_geo_106_mj",
-              "subject_code": "BA-GEO-106-MJ",
+              "subject_id": "ba_geo_103_mj",
+              "subject_code": "BA-GEO-103-MJ",
               "subject_name_en": "Physical Geography",
               "subject_name": "भौतिक भूगोल",
               "category": "Major",
               "order": 3,
               "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-GEO-106-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "ba_eco_107_mj",
-              "subject_code": "BA-ECO-107-MJ",
+              "subject_id": "ba_eco_104_mj",
+              "subject_code": "BA-ECO-104-MJ",
               "subject_name_en": "Micro Economics",
               "subject_name": "सूक्ष्म अर्थशास्त्र",
               "category": "Major",
               "order": 4,
               "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-ECO-107-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "ba_psy_108_mn",
-              "subject_code": "BA-PSY-108-MN",
+              "subject_id": "ba_phi_105_mj",
+              "subject_code": "BA-PHI-105-MJ",
+              "subject_name_en": "Indian Philosophy",
+              "subject_name": "भारतीय दर्शन",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_psy_141_mn",
+              "subject_code": "BA-PSY-141-MN",
               "subject_name_en": "Basic Psychology",
               "subject_name": "मूल मनोविज्ञान",
               "category": "Minor",
+              "order": 1,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_soc_142_mn",
+              "subject_code": "BA-SOC-142-MN",
+              "subject_name_en": "Introduction to Sociology",
+              "subject_name": "समाजशास्त्र का परिचय",
+              "category": "Minor",
               "order": 2,
               "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-PSY-108-MN.html"
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_pad_143_mn",
+              "subject_code": "BA-PAD-143-MN",
+              "subject_name_en": "Public Administration",
+              "subject_name": "लोक प्रशासन",
+              "category": "Minor",
+              "order": 3,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_hin_181_sec",
+              "subject_code": "BA-HIN-181-SEC",
+              "subject_name_en": "Hindi Patrakarita",
+              "subject_name": "हिंदी पत्रकारिता",
+              "category": "SEC",
+              "order": 1,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
             },
             {
               "subject_id": "ba_san_109_sec",
@@ -105,41 +116,30 @@
               "category": "SEC",
               "order": 2,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": "ba/1st_year/BA-SAN-109-SEC.html"
             },
             {
-              "subject_id": "ba_env_110_vac",
-              "subject_code": "BA-ENV-110-VAC",
+              "subject_id": "ba_eng_186_aecc",
+              "subject_code": "BA-ENG-186-AECC",
+              "subject_name_en": "Communicative English",
+              "subject_name": "संचारात्मक अंग्रेज़ी",
+              "category": "AECC",
+              "order": 1,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_env_196_vac",
+              "subject_code": "BA-ENV-196-VAC",
               "subject_name_en": "Environmental Studies",
               "subject_name": "पर्यावरण अध्ययन",
               "category": "VAC",
               "order": 1,
               "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-ENV-110-VAC.html"
-            },
-            {
-              "subject_id": "ba_phi_111_mj",
-              "subject_code": "BA-PHI-111-MJ",
-              "subject_name_en": "Indian Philosophy",
-              "subject_name": "भारतीय दर्शन",
-              "category": "Major",
-              "order": 5,
-              "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-PHI-111-MJ.html"
-            },
-            {
-              "subject_id": "ba_pad_112_mn",
-              "subject_code": "BA-PAD-112-MN",
-              "subject_name_en": "Public Administration",
-              "subject_name": "लोक प्रशासन",
-              "category": "Minor",
-              "order": 3,
-              "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-PAD-112-MN.html"
+              "status": "upcoming",
+              "html_url": ""
             }
           ]
         },
@@ -154,7 +154,7 @@
               "category": "Major",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -165,7 +165,7 @@
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -176,7 +176,7 @@
               "category": "Major",
               "order": 3,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -187,7 +187,7 @@
               "category": "Major",
               "order": 4,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -198,7 +198,7 @@
               "category": "Major",
               "order": 5,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -209,7 +209,7 @@
               "category": "Major",
               "order": 6,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -220,7 +220,7 @@
               "category": "Major",
               "order": 7,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -231,7 +231,7 @@
               "category": "Minor",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -242,7 +242,7 @@
               "category": "Foundation",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -253,18 +253,18 @@
               "category": "Foundation",
               "order": 2,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
               "subject_id": "ba_fnd_273_fnd",
-              "subject_code": "BA-fnd-273-FND",
+              "subject_code": "BA-FND-273-FND",
               "subject_name_en": " Foundation ",
               "subject_name": " फाउंडेशन ",
               "category": "Foundation",
               "order": 3,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -275,7 +275,7 @@
               "category": "SEC",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -286,7 +286,7 @@
               "category": "SEC",
               "order": 2,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -308,7 +308,7 @@
               "category": "VAC",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             }
           ]
@@ -317,52 +317,151 @@
           "title": "3rd Year",
           "subjects": [
             {
-              "subject_id": "ba_his_101_mj",
-              "subject_code": "BA-HIS-101-MJ",
+              "subject_id": "ba_his_301_mj",
+              "subject_code": "BA-HIS-301-MJ",
               "subject_name_en": "Ancient Indian History",
               "subject_name": "प्राचीन भारत का इतिहास",
               "category": "Major",
               "order": 1,
               "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-HIS-101-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "ba_pol_102_mj",
-              "subject_code": "BA-POL-102-MJ",
+              "subject_id": "ba_pol_302_mj",
+              "subject_code": "BA-POL-302-MJ",
               "subject_name_en": "Political Theory",
               "subject_name": "राजनीतिक सिद्धांत",
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-POL-102-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "ba_soc_103_mn",
-              "subject_code": "BA-SOC-103-MN",
+              "subject_id": "ba_phi_303_mj",
+              "subject_code": "BA-PHI-303-MJ",
+              "subject_name_en": "Indian Philosophy",
+              "subject_name": "भारतीय दर्शन",
+              "category": "Major",
+              "order": 3,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_soc_304_mj",
+              "subject_code": "BA-SOC-304-MJ",
               "subject_name_en": "Introduction to Sociology",
               "subject_name": "समाजशास्त्र का परिचय",
+              "category": "Major",
+              "order": 4,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_pad_305_mj",
+              "subject_code": "BA-PAD-305-MJ",
+              "subject_name_en": "Public Administration",
+              "subject_name": "लोक प्रशासन",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_geo_306_mj",
+              "subject_code": "BA-GEO-306-MJ",
+              "subject_name_en": "Physical Geography",
+              "subject_name": "भौतिक भूगोल",
+              "category": "Major",
+              "order": 6,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_eco_307_mj",
+              "subject_code": "BA-ECO-307-MJ",
+              "subject_name_en": "Micro Economics",
+              "subject_name": "सूक्ष्म अर्थशास्त्र",
+              "category": "Major",
+              "order": 7,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_psy_331_mn",
+              "subject_code": "BA-PSY-331-MN",
+              "subject_name_en": "Basic Psychology",
+              "subject_name": "मूल मनोविज्ञान",
               "category": "Minor",
               "order": 1,
               "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-SOC-103-MN.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "ba_hin_104_sec",
-              "subject_code": "BA-HIN-104-SEC",
+              "subject_id": "ba_hin_371_fnd",
+              "subject_code": "BA-HIN-371-FND",
+              "subject_name_en": "Hindi",
+              "subject_name": "हिंदी",
+              "category": "Foundation",
+              "order": 1,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_eng_372_FND",
+              "subject_code": "BA-ENG-372-FND",
+              "subject_name_en": "English",
+              "subject_name": "अग्रेंजी",
+              "category": "Foundation",
+              "order": 2,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_fnd_373_fnd",
+              "subject_code": "BA-FND-373-FND",
+              "subject_name_en": " Foundation ",
+              "subject_name": " फाउंडेशन ",
+              "category": "Foundation",
+              "order": 3,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_hin_381_sec",
+              "subject_code": "BA-HIN-381-SEC",
               "subject_name_en": "Hindi Patrakarita",
               "subject_name": "हिंदी पत्रकारिता",
               "category": "SEC",
               "order": 1,
               "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-HIN-104-SEC.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "ba_eng_105_aecc",
-              "subject_code": "BA-ENG-105-AECC",
+              "subject_id": "ba_san_382_sec",
+              "subject_code": "BA-SAN-382-SEC",
+              "subject_name_en": "Basic Sanskrit",
+              "subject_name": "मूल संस्कृत",
+              "category": "SEC",
+              "order": 2,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "ba_eng_386_aecc",
+              "subject_code": "BA-ENG-386-AECC",
               "subject_name_en": "Communicative English",
               "subject_name": "संचारात्मक अंग्रेज़ी",
               "category": "AECC",
@@ -372,81 +471,15 @@
               "html_url": null
             },
             {
-              "subject_id": "ba_geo_106_mj",
-              "subject_code": "BA-GEO-106-MJ",
-              "subject_name_en": "Physical Geography",
-              "subject_name": "भौतिक भूगोल",
-              "category": "Major",
-              "order": 3,
-              "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-GEO-106-MJ.html"
-            },
-            {
-              "subject_id": "ba_eco_107_mj",
-              "subject_code": "BA-ECO-107-MJ",
-              "subject_name_en": "Micro Economics",
-              "subject_name": "सूक्ष्म अर्थशास्त्र",
-              "category": "Major",
-              "order": 4,
-              "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-ECO-107-MJ.html"
-            },
-            {
-              "subject_id": "ba_psy_108_mn",
-              "subject_code": "BA-PSY-108-MN",
-              "subject_name_en": "Basic Psychology",
-              "subject_name": "मूल मनोविज्ञान",
-              "category": "Minor",
-              "order": 2,
-              "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-PSY-108-MN.html"
-            },
-            {
-              "subject_id": "ba_san_109_sec",
-              "subject_code": "BA-SAN-109-SEC",
-              "subject_name_en": "Basic Sanskrit",
-              "subject_name": "मूल संस्कृत",
-              "category": "SEC",
-              "order": 2,
-              "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-SAN-109-SEC.html"
-            },
-            {
-              "subject_id": "ba_env_110_vac",
-              "subject_code": "BA-ENV-110-VAC",
+              "subject_id": "ba_env_396_vac",
+              "subject_code": "BA-ENV-396-VAC",
               "subject_name_en": "Environmental Studies",
               "subject_name": "पर्यावरण अध्ययन",
               "category": "VAC",
               "order": 1,
               "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-ENV-110-VAC.html"
-            },
-            {
-              "subject_id": "ba_phi_111_mj",
-              "subject_code": "BA-PHI-111-MJ",
-              "subject_name_en": "Indian Philosophy",
-              "subject_name": "भारतीय दर्शन",
-              "category": "Major",
-              "order": 5,
-              "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-PHI-111-MJ.html"
-            },
-            {
-              "subject_id": "ba_pad_112_mn",
-              "subject_code": "BA-PAD-112-MN",
-              "subject_name_en": "Public Administration",
-              "subject_name": "लोक प्रशासन",
-              "category": "Minor",
-              "order": 3,
-              "fees": 25,
-              "status": "available",
-              "html_url": "ba/1st_year/BA-PAD-112-MN.html"
+              "status": "upcoming",
+              "html_url": ""
             }
           ]
         }
@@ -469,8 +502,8 @@
               "category": "Major",
               "order": 1,
               "fees": 25,
-              "status": "available",
-              "html_url": "bsc/1st_year/BSC-PHY-101-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
               "subject_id": "bsc_che_102_mj",
@@ -480,107 +513,108 @@
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
-              "html_url": "bsc/1st_year/BSC-CHE-102-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "bsc_mat_103_mn",
-              "subject_code": "BSC-MAT-103-MN",
-              "subject_name_en": "Vector Algebra",
-              "subject_name": "सदिश बीजगणित",
-              "category": "Minor",
-              "order": 1,
-              "fees": 25,
-              "status": "available",
-              "html_url": "bsc/1st_year/BSC-MAT-103-MN.html"
-            },
-            {
-              "subject_id": "bsc_cs_104_sec",
-              "subject_code": "BSC-CS-104-SEC",
-              "subject_name_en": "Computer Fundamentals",
-              "subject_name": "कंप्यूटर की मूल बातें",
-              "category": "SEC",
-              "order": 1,
-              "fees": 25,
-              "status": "available",
-              "html_url": "bsc/1st_year/BSC-CS-104-SEC.html"
-            },
-            {
-              "subject_id": "bsc_bot_105_mj",
-              "subject_code": "BSC-BOT-105-MJ",
-              "subject_name_en": "Botany (Plant Biology)",
-              "subject_name": वनस्पति विज्ञान (पादप जीवविज्ञान)",
+              "subject_id": "bsc_biot_103_mj",
+              "subject_code": "BSC-BIOT-103-MJ",
+              "subject_name_en": "Biotechnology",
+              "subject_name": "जैव प्रौद्योगिकी",
               "category": "Major",
               "order": 3,
               "fees": 25,
-              "status": "available",
-              "html_url": "bsc/1st_year/BSC-BOT-105-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "bsc_zoo_106_mj",
-              "subject_code": "BSC-ZOO-106-MJ",
+              "subject_id": "bsc_zoo_104_mj",
+              "subject_code": "BSC-ZOO-104-MJ",
               "subject_name_en": "Animal Diversity",
               "subject_name": "प्राणी विविधता",
               "category": "Major",
               "order": 4,
               "fees": 25,
-              "status": "available",
-              "html_url": "bsc/1st_year/BSC-ZOO-106-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "bsc_stat_107_mn",
-              "subject_code": "BSC-STAT-107-MN",
+              "subject_id": "bsc_bot_105_mj",
+              "subject_code": "BSC-BOT-105-MJ",
+              "subject_name_en": "Botany (Plant Biology)",
+              "subject_name": "वनस्पति विज्ञान ( पादप जीव विज्ञान )",
+              "category": "Major",
+              "order": 5,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "bsc_mat_141_mn",
+              "subject_code": "BSC-MAT-141-MN",
+              "subject_name_en": "Vector Algebra",
+              "subject_name": "सदिश बीजगणित",
+              "category": "Minor",
+              "order": 1,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+            {
+              "subject_id": "bsc_stat_142_mn",
+              "subject_code": "BSC-STAT-142-MN",
               "subject_name_en": "Basic Statistics",
               "subject_name": "बुनियादी सांख्यिकी",
               "category": "Minor",
               "order": 2,
               "fees": 25,
-              "status": "available",
-              "html_url": "bsc/1st_year/BSC-STAT-107-MN.html"
-            },
-                        {
-              "subject_id": "bsc_bot_105_mn",
-              "subject_code": "BSC-BOT-105-MJ",
-              "subject_name_en": "Botany (Plant Biology)",
-              "subject_name": वनस्पति विज्ञान (पादप जीवविज्ञान)",
-              "category": "Miner",
-              "order": 3,
-              "fees": 25,
-              "status": "available",
-              "html_url": "bsc/1st_year/BSC-BOT-105-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "bsc_elec_108_sec",
-              "subject_code": "BSC-ELEC-108-SEC",
+              "subject_id": "bsc_bot_145_mn",
+              "subject_code": "BSC-BOT-145-MN",
+              "subject_name_en": "Botany (Plant Biology)",
+              "subject_name": "वनस्पति विज्ञान ( पादप जीव विज्ञान )",
+              "category": "Minor",
+              "order": 5,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "bsc_cs_181_sec",
+              "subject_code": "BSC-CS-181-SEC",
+              "subject_name_en": "Computer Fundamentals",
+              "subject_name": "कंप्यूटर की मूल बातें",
+              "category": "SEC",
+              "order": 1,
+              "fees": 25,
+              "status": "upcoming",
+              "html_url": ""
+            },
+
+            {
+              "subject_id": "bsc_elec_182_sec",
+              "subject_code": "BSC-ELEC-182-SEC",
               "subject_name_en": "Basic Electronics",
               "subject_name": "बुनियादी इलेक्ट्रॉनिक्स",
               "category": "SEC",
               "order": 2,
               "fees": 25,
-              "status": "available",
-              "html_url": "bsc/1st_year/BSC-ELEC-108-SEC.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "bsc_biotech_109_mj",
-              "subject_code": "BSC-BIOT-109-MJ",
-              "subject_name_en": "Biotechnology",
-              "subject_name": "जैव प्रौद्योगिकी",
-              "category": "Major",
-              "order": 5,
-              "fees": 25,
-              "status": "available",
-              "html_url": "bsc/1st_year/BSC-BIOT-109-MJ.html"
-            },
-            {
-              "subject_id": "bsc_yoga_110_vac",
-              "subject_code": "BSC-YOGA-110-VAC",
+              "subject_id": "bsc_yoga_191_vac",
+              "subject_code": "BSC-YOGA-191-VAC",
               "subject_name_en": "Yoga and Wellness",
               "subject_name": "योग और कल्याण",
               "category": "VAC",
               "order": 1,
               "fees": 25,
-              "status": "available",
-              "html_url": "bsc/1st_year/BSC-YOGA-110-VAC.html"
+              "status": "upcoming",
+              "html_url": ""
             }
           ]
         }
@@ -604,7 +638,7 @@
               "category": "Major",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -615,7 +649,7 @@
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -626,7 +660,7 @@
               "category": "Major",
               "order": 3,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -637,7 +671,7 @@
               "category": "Major",
               "order": 4,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -648,7 +682,7 @@
               "category": "Major",
               "order": 5,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -659,7 +693,7 @@
               "category": "Major",
               "order": 6,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -670,7 +704,7 @@
               "category": "Major",
               "order": 7,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -681,7 +715,7 @@
               "category": "Major",
               "order": 8,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -692,7 +726,7 @@
               "category": "Major",
               "order": 9,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -703,7 +737,7 @@
               "category": "Major",
               "order": 10,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -714,7 +748,7 @@
               "category": "Major",
               "order": 11,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -725,29 +759,29 @@
               "category": "Major",
               "order": 12,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
               "subject_id": "ma_eco_213_mj",
-              "subject_code": "MA-ECO-21-MJ",
+              "subject_code": "MA-ECO-213-MJ",
               "subject_name_en": " Advanced Economic Analysis",
               "subject_name": "एडवांस इकोनोमिकल एनालेसिस  ",
               "category": "Major",
               "order": 13,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
               "subject_id": "ma_eco_214_mj",
-              "subject_code": "MA-ECO-21-MJ",
+              "subject_code": "MA-ECO-214-MJ",
               "subject_name_en": " Monetary Economics and Banking",
               "subject_name": "मोनीटेरी एकोनामिक्स एण्ड बैंकिंग ",
               "category": "Major",
               "order": 14,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -758,7 +792,7 @@
               "category": "Major",
               "order": 15,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -769,7 +803,7 @@
               "category": "Major",
               "order": 16,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -780,12 +814,13 @@
               "category": "Major",
               "order": 20,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             }
           ]
         },
-        "3rd_semester": {}
+        "3rd_semester": {},
+        "4th_semester": {}
       }
     },
     "msc": {
@@ -805,8 +840,8 @@
               "category": "Major",
               "order": 1,
               "fees": 25,
-              "status": "available",
-              "html_url": "msc/1st_semester/MSC-PHY-101-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
               "subject_id": "msc_phy_102_mj",
@@ -816,30 +851,30 @@
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
-              "html_url": "msc/1st_semester/MSC-PHY-102-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "msc_mat_103_mn",
-              "subject_code": "MSC-MAT-103-MN",
+              "subject_id": "msc_mat_103_mj",
+              "subject_code": "MSC-MAT-103-MJ",
               "subject_name_en": "Advanced Calculus",
               "subject_name": "उन्नत कलन",
-              "category": "Minor",
-              "order": 1,
+              "category": "Major",
+              "order": 3,
               "fees": 25,
-              "status": "available",
-              "html_url": "msc/1st_semester/MSC-MAT-103-MN.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "msc_cs_104_sec",
-              "subject_code": "MSC-CS-104-SEC",
+              "subject_id": "msc_cs_104_mj",
+              "subject_code": "MSC-CS-104-MJ",
               "subject_name_en": "Scientific Computing",
               "subject_name": "वैज्ञानिक संगणना",
-              "category": "SEC",
-              "order": 1,
+              "category": "Major",
+              "order": 4,
               "fees": 25,
-              "status": "available",
-              "html_url": "msc/1st_semester/MSC-CS-104-SEC.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
               "subject_id": "msc_che_105_mj",
@@ -847,10 +882,10 @@
               "subject_name_en": "Inorganic Chemistry",
               "subject_name": "अकार्बनिक रसायन",
               "category": "Major",
-              "order": 3,
+              "order": 5,
               "fees": 25,
-              "status": "available",
-              "html_url": "msc/1st_semester/MSC-CHE-105-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
               "subject_id": "msc_bot_106_mj",
@@ -858,10 +893,10 @@
               "subject_name_en": "Microbiology",
               "subject_name": "सूक्ष्मजीव विज्ञान",
               "category": "Major",
-              "order": 4,
+              "order": 6,
               "fees": 25,
-              "status": "available",
-              "html_url": "msc/1st_semester/MSC-BOT-106-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
               "subject_id": "msc_zoo_107_mj",
@@ -869,10 +904,10 @@
               "subject_name_en": "Cell Biology",
               "subject_name": "कोशिका विज्ञान",
               "category": "Major",
-              "order": 5,
+              "order": 7,
               "fees": 25,
-              "status": "available",
-              "html_url": "msc/1st_semester/MSC-ZOO-107-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
               "subject_id": "msc_env_108_mj",
@@ -880,21 +915,21 @@
               "subject_name_en": "Ecological Principles",
               "subject_name": "पारिस्थितिक सिद्धांत",
               "category": "Major",
-              "order": 6,
+              "order": 8,
               "fees": 25,
-              "status": "available",
-              "html_url": "msc/1st_semester/MSC-ENV-108-MJ.html"
+              "status": "upcoming",
+              "html_url": ""
             },
             {
-              "subject_id": "msc_stat_109_mn",
-              "subject_code": "MSC-STAT-109-MN",
+              "subject_id": "msc_stat_109_vac",
+              "subject_code": "MSC-STAT-109-VAC",
               "subject_name_en": "Probability Theory",
               "subject_name": "प्रायिकता सिद्धांत",
-              "category": "Minor",
-              "order": 2,
+              "category": "VAC",
+              "order": 1,
               "fees": 25,
-              "status": "available",
-              "html_url": "msc/1st_semester/MSC-STAT-109-MN.html"
+              "status": "upcoming",
+              "html_url": ""
             }
           ]
         }
@@ -917,7 +952,7 @@
               "category": "Major",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -928,7 +963,7 @@
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -937,9 +972,9 @@
               "subject_name_en": "Law Of Torts and Consumer Protection Law",
               "subject_name": "अपकृत्य कानून और उपभोक्ता संरक्षण कानून",
               "category": "Major",
-              "order": 1,
+              "order": 3,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -948,9 +983,9 @@
               "subject_name_en": "Bhartiya Nyaya Sanhita",
               "subject_name": "भारतीय न्याय संहिता",
               "category": "Major",
-              "order": 1,
+              "order": 4,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             }
           ]
@@ -966,7 +1001,7 @@
               "category": "Major",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -977,7 +1012,7 @@
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -988,7 +1023,7 @@
               "category": "Major",
               "order": 3,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -999,7 +1034,7 @@
               "category": "Major",
               "order": 4,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1010,7 +1045,7 @@
               "category": "Major",
               "order": 5,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             }
           ]
@@ -1026,7 +1061,7 @@
               "category": "Major",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1037,7 +1072,7 @@
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1048,7 +1083,7 @@
               "category": "Major",
               "order": 3,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1059,7 +1094,7 @@
               "category": "Major",
               "order": 4,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             }
           ]
@@ -1075,7 +1110,7 @@
               "category": "Major",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1086,7 +1121,7 @@
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1097,7 +1132,7 @@
               "category": "Major",
               "order": 3,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1108,7 +1143,7 @@
               "category": "Major",
               "order": 4,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1119,7 +1154,7 @@
               "category": "Major",
               "order": 5,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             }
           ]
@@ -1135,7 +1170,7 @@
               "category": "Major",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1146,7 +1181,7 @@
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1157,7 +1192,7 @@
               "category": "Major",
               "order": 3,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1168,7 +1203,7 @@
               "category": "Major",
               "order": 4,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1179,7 +1214,7 @@
               "category": "Major",
               "order": 5,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             }
           ]
@@ -1195,7 +1230,7 @@
               "category": "Major",
               "order": 1,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1206,7 +1241,7 @@
               "category": "Major",
               "order": 2,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1217,7 +1252,7 @@
               "category": "Major",
               "order": 3,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -1228,7 +1263,7 @@
               "category": "Major",
               "order": 4,
               "fees": 25,
-              "status": "available",
+              "status": "upcoming",
               "html_url": ""
             }
           ]
