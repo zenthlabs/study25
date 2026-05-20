@@ -508,8 +508,8 @@
             {
               "subject_id": "bsc_bot_105_mj",
               "subject_code": "BSC-BOT-105-MJ",
-              "subject_name_en": "Plant Biology",
-              "subject_name": "पादप जीवविज्ञान",
+              "subject_name_en": "Botany (Plant Biology)",
+              "subject_name": वनस्पति विज्ञान (पादप जीवविज्ञान)",
               "category": "Major",
               "order": 3,
               "fees": 25,
@@ -537,6 +537,17 @@
               "fees": 25,
               "status": "available",
               "html_url": "bsc/1st_year/BSC-STAT-107-MN.html"
+            },
+                        {
+              "subject_id": "bsc_bot_105_mn",
+              "subject_code": "BSC-BOT-105-MJ",
+              "subject_name_en": "Botany (Plant Biology)",
+              "subject_name": वनस्पति विज्ञान (पादप जीवविज्ञान)",
+              "category": "Miner",
+              "order": 3,
+              "fees": 25,
+              "status": "available",
+              "html_url": "bsc/1st_year/BSC-BOT-105-MJ.html"
             },
             {
               "subject_id": "bsc_elec_108_sec",
