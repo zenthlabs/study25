@@ -1,19 +1,87 @@
 {
   "notifications": [
     {
-      "title": "BA Final Year Exam Form 2026",
-      "description": "बी.ए. अंतिम वर्ष परीक्षा फॉर्म भरने की अंतिम तिथि जारी कर दी गई है।",
-      "date": "15 May 2026",
+      "title": "PG MA, MCom, MSc, MHSc II Semester exam 2025-26",
+      "description": "PG One Yr and Two Yr Courses MA, MCom, MSc, MHSc II Semester exam 2025-26",
+      "date": "18 May 2026",
+      "important": true,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1779189625-10916307826a0c4779538a2!TIME_TABLE_2162_DATE_18.05.2026_MA.MCOM.MSC.MHSC.II_ND_SEMESTER.PDF?1779189625"
+    },
+    {
+      "title": "BCom II Yr.exam 2025-26 related ",
+      "date": "14 May 2026",
       "important": true,
       "link": "https://vikramuniv.ac.in/uploads/gallery/media/1778823268-12515501816a06b0647ba73!vu_14.PDF?1778823292"
     },
-
     {
-      "title": "BSc Semester Result Released",
-      "description": "बी.एससी. सेमेस्टर परीक्षा परिणाम विश्वविद्यालय द्वारा जारी कर दिया गया है।",
-      "date": "12 May 2026",
+      "title": "BA I Yr exam 2025-26 related",
+      "date": "13 May 2026",
+      "description": " सत्र 2025-2026 की स्नातक बी.ए प्रथम वर्ष की परीक्षा कार्यक्रम के संबंध मेंं (BA Miner I all sub. and miner II all subjects",
+      "important": true,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1778755909-12761437356a05a945411b4!vu_14.PDF?1778755909"
+    },
+    {
+      "title": "Time-Table Integrated MBA (IInd SEMESTER) SEMESTER May 2026",
+      "date": "9 May 2026",
+      "description": " ",
+      "important": true,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1778563415-7864354736a02b9576add4!IIPS321.pdf?1778563415"
+    },
+    {
+      "title": "सत्र 2025-2026 की एम.ए. द्वितीय सेमेस्टर (ओल्ड कोर्स एटीकेटी) की परीक्षा कार्यक्रम के संबंध में। ",
+      "date": "8 May 2026",
+      "description": "ONLY FOR MA. SANGIT IInd Sem. संगीत 1 भारतीय संगीत का इतिहास एवं सौंदर्य शास्त्र (कंठ-2) AND  वाद्य संगीत-संगीत शास्त्र-1",
+      "important": false,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1778563596-4365402726a02ba0c36483!TIME_TABLE_2146.2147_MA_IIND_SEMESTER.PDF?1778563596"
+    },
+    {
+      "title": "Undergraduate Supplementary exam 2025-26",
+      "date": "8 May 2026",
+      "description": "सत्र 2025-2026 की स्नातक की प्रथम वर्ष पूरक परीक्षा (बी.ए., बी.कॉम., बी.एससी. बी.एचएससी., बी.बी.ए. एवं बी.सी.ए.) परीक्षा कार्यक्रम के संबंध में। ONLY FOR Ist year Suppl. Vocational &&E-Accounting Taxation with GST",
+      "important": false,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1778563591-4519925636a02ba0740185!TIME_TABLE_2144.2145_BA.BCOM.BSC.BHSC.BBA.__BCA.PDF?1778563596"
+    },
+    {
+      "title": "REVISED - BA, BFA, BCom, BSc, BHSc, BBA, BCA II yr main exam 2025-26  ",
+      "date": "8 May 2026",
+      "description": "(ONLY FOR II YEAR ) B.A, B,F.A, B.Com.B.Sc.B.H.Sc, B.B.A. & B.C.A. IInd year Vocational B.Sc. IInd year (Cyber Security) Local Host &Network Security Major-I Intro. to Physical Security Essentials Major -II",
       "important": false,
       "link": "https://vikramuniv.ac.in/uploads/gallery/media/1778477400-6899829276a016958e38dc!EXAM_2142_DATE_08.05.2026_BA.BFA.BCOM.BSC.BHSC.BBA.___BCA.PDF?1778477401"
+    },
+    {
+      "title": "MBA (New & Old Course)  II and IV sem exam 2025-26",
+      "date": "6 May 2026",
+      "description": "सत्र 2025-26 की एम.बी.ए. द्वितीय सेमेस्टर नियमित न्यू कोर्स एवं ओल्ड कोर्स एम.बी.ए. द्वितीय सेमेस्टर एटीकेटी / पूर्व एम.बी.ए. चतुर्थ सेमेस्टर नियमित/एटीकेटी/पूर्व छात्रों",
+      "important": false,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1778136829-183567529169fc36fd70ece!TIME_TABLE_2138.2139_MBA_IIND_NEW_COURSE_MBA_IV_TH_SEM.PDF?1778136844"
+    },
+    {
+      "title": "Postgraduate exam II and IV sem 2025-26",
+      "date": "24 Apr 2026",
+      "description": "ONLY FOR ATKT सत्र 2025-26 की स्नातकोत्तर स्तर के एम.ए., एम.कॉम. एम.एससी. द्वितीय सेमेस्टर अंतिम अवसर (केवल एटीकेटी) तथा एम.ए., एम.कॉम. एम.एससी. एम.एच.एससी. चतुर्थ सेमेस्टर परीक्षा ",
+      "important": false,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1778136783-186376106669fc36cf2a898!TIME_TABLE_2088_DATE_24.04.2026_MA.MCOM.MSC.MHSC.PDF?1778136844"
+    },
+    {
+      "title": "BA, BFA, BCOM, BSC, BHSC, BBA, BCA, I Yr exam 2025-26 ",
+      "date": "24/04/2026",
+      "description": " सत्र 2025-26 की स्नातक स्तर के बी.ए., बी.एफ.ए. बी.कॉम., बी.एससी. (नियमित /स्वाध्यायी / पूर्व छात्र) बी.एच.एससी. बी.बी.ए. एवं बी.सी.ए. (नियमित / पूर्व छात्र) प्रथम वर्ष की मुख्य परीक्षा का परीक्षा कार्यक्रम",
+      "important": true,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1778136759-194369915569fc36b7ca5f9!TIME_TABLE_2084_DATE_24.04.2026_BA.BFA.BCOM.BSC.BHSC.BBA.__BCA.PDF?1778136844"
+    },
+    {
+      "title": "BA III Yr exam 2025-26 related  ",
+      "date": "14/04/2026",
+      "description": " ONLY FOR Philosophy (The Philosophy of Shrimadbhagwat Geeta) - Minor && Music (Vadan) Principal of Indian & Music-Minor& Sociology-Major Sociological Thinkers-Al &Foundation of Sociological Thoughts B-1",
+      "important": false,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1776496008-59745199769e32d88e3290!TIME_TABLE_2063_DATE_15.04.2026_BA_III_RD_YEAR.PDF?1776496115"
+    },
+    {
+      "title": "Regarding B.Com. II Yr exam 2025-26",
+      "date": "13/04/2026",
+      "description": " ",
+      "important": false,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1776316822-26566374569e0719611f85!TIME_TABLE_2059_DATE_13.04.2026_BCOM_II_ND_YEAR.PDF?1776316822"
     }
   ]
 }
