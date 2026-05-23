@@ -516,17 +516,7 @@
               "status": "upcoming",
               "html_url": ""
             },
-            {
-              "subject_id": "bsc_bot_105_mj",
-              "subject_code": "BSC-BOT-105-MJ",
-              "subject_name_en": "Botany (Plant Biology)",
-              "subject_name": "वनस्पति विज्ञान ( पादप जीव विज्ञान )",
-              "category": "Major",
-              "order": 5,
-              "fees": 0,
-              "status": "available",
-              "html_url": ""
-            },
+
             {
               "subject_id": "bsc_zoo_106_mj",
               "subject_code": "BSC-ZOO-106-MJ",
@@ -536,6 +526,39 @@
               "order": 6,
               "fees": 0,
               "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "bsc_bot_105_mj",
+              "subject_code": "BSC-BOT-105-MJ",
+              "subject_name_en": "Botany-I",
+              "subject_name": "वनस्पति विज्ञान I",
+              "category": "Major",
+              "order": 5,
+              "fees": 0,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "bsc_bot_107_mj",
+              "subject_code": "BSC-BOT-107-MJ",
+              "subject_name_en": "Botany-II",
+              "subject_name": "वनस्पति विज्ञान II",
+              "category": "Major",
+              "order": 7,
+              "fees": 25,
+              "status": "available",
+              "html_url": ""
+            },
+            {
+              "subject_id": "bsc_bot_108_mj",
+              "subject_code": "BSC-BOT-108-MJ",
+              "subject_name_en": "Botany-III",
+              "subject_name": "वनस्पति विज्ञान III",
+              "category": "Major",
+              "order": 8,
+              "fees": 25,
+              "status": "upcoming",
               "html_url": ""
             },
             {
@@ -563,8 +586,8 @@
             {
               "subject_id": "bsc_bot_145_mn",
               "subject_code": "BSC-BOT-145-MN",
-              "subject_name_en": "Botany (Plant Biology)",
-              "subject_name": "वनस्पति विज्ञान ( पादप जीव विज्ञान )",
+              "subject_name_en": "Botany",
+              "subject_name": "वनस्पति विज्ञान",
               "category": "Minor",
               "order": 5,
               "fees": 0,
