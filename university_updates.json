@@ -1,6 +1,20 @@
 {
   "notifications": [
     {
+      "title": "28 मई 2026 को ईद होने के कारण BA, BSc, BCA, BBA, BCom, BHSc और BBA (H) की परीक्षाएँ स्थगित",
+      "description": "28 मई 2026 को ईद होने के कारण BA, BSc, BCA, BBA, BCom, BHSc और BBA (H) की परीक्षाएँ स्थगित कर दी गई हैं। अब ये पेपर 12 जून 2026 को आयोजित किए जाएंगे। कृपया ध्यान दें कि केवल इसी दिन (28 मई) का पेपर बदला गया है, बाकी सभी परीक्षाएं अपने पुराने टाइम-टेबल के अनुसार ही होंगी।",
+      "date": "26 May 2026",
+      "important": true,
+      "link": ""
+    },
+    {
+      "title": "B.Pharma exam 2025-26",
+      "description": "2025-2026 बी. फार्मा. द्वितीय, चतुर्थ, षष्ठम एवं अष्ठम सेमेस्टर (न्यू कोर्स) नियमित/एटीकेटी/पूर्व बी.फार्मा. प्रथम, तृतीय, पंचम एवं सप्तम सेमेस्टर (न्यू कोर्स) एटीकेटी / पूर्व एवं एम. फार्मा. द्वितीय सेमेस्टर नियमित / एटीकेटी तथा डी. फार्मा प्रथम वर्ष एवं द्वितीय वर्ष नियमित / पूरक परीक्षा का परीक्षा कार्यक्रम ।",
+      "date": "22 May 2026",
+      "important": false,
+      "link": "https://vikramuniv.ac.in/uploads/gallery/media/1779450952-20325448106a104448eed9f!TIME_TABLE_2171.2172_DATE_22.05.2026_BPHARMA.PDF?1779450976"
+    },
+    {
       "title": "PG MA, MCom, MSc, MHSc II Semester exam 2025-26",
       "description": "PG One Yr and Two Yr Courses MA, MCom, MSc, MHSc II Semester exam 2025-26",
       "date": "18 May 2026",
